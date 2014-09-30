@@ -1,0 +1,11 @@
+---------------------------------------------------------------------
+Bugs FILE - TimeMatrix
+Created 2009-03-19 by Ji Soo Yi <yij@purdue.edu> 
+---------------------------------------------------------------------
+
+[X] Tooltips on aggregated nodes make: 
+	java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.remove(ArrayList.java:392)
+	at edu.umd.cs.piccolo.PNode.removeChild(Unknown Source)
+	at edu.umd.cs.piccolo.PNode.removeChild(Unknown Source)
+	at edu.purdue.timematrix.visualization.NodeCompositor$NodeBox$1.mouseExited(NodeCompositor.java:58)

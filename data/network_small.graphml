@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+	http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+	<key id="Name" for="node" attr.name="Name" attr.type="String"/>
+	<key id="GeoScope" for="node" attr.name="GeoScope" attr.type="Integer"/>
+	<key id="Region" for="node" attr.name="Region" attr.type="Integer"/>
+	<key id="Type" for="node" attr.name="Type" attr.type="Integer"/>
+	<key id="Year" for="edge" attr.name="Year" attr.type="Integer"/>
+	<key id="EdgeType" for="edge" attr.name="EdgeType" attr.type="Integer"/>
+	<graph id="G" edgedefault="undirected">
+		<node id="1">
+			<data key="Name">International Development Research Center (IDRC)</data>
+			<data key="GeoScope">1</data>
+			<data key="Region">5</data>
+			<data key="Type">3</data>
+		</node>
+		<node id="2">
+			<data key="Name">The Angola Educational Assistance Fund (AEAF)</data>
+			<data key="GeoScope">1</data>
+			<data key="Region">5</data>
+			<data key="Type">3</data>
+		</node>
+		<node id="3">
+			<data key="Name">Catholic University of Angola (UCAN), Luanda</data>
+			<data key="GeoScope">3</data>
+			<data key="Region">1</data>
+			<data key="Type">3</data>
+		</node>
+		<node id="4">
+			<data key="Name">Centro de Investigacion, Educacion y Desarrollo (CIED)</data>
+			<data key="GeoScope">3</data>
+			<data key="Region">4</data>
+			<data key="Type">3</data>
+		</node>
+		<edge id="e0" source="1" target="2">
+			<data key="Year">2000</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e1" source="1" target="2">
+			<data key="Year">2001</data>
+			<data key="EdgeType">2</data>
+		</edge>
+		<edge id="e2" source="1" target="3">
+			<data key="Year">2000</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e3" source="1" target="3">
+			<data key="Year">2001</data>
+			<data key="EdgeType">2</data>
+		</edge>
+		<edge id="e4" source="2" target="3">
+			<data key="Year">2000</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e5" source="2" target="3">
+			<data key="Year">2001</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e6" source="1" target="4">
+			<data key="Year">2001</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e7" source="1" target="4">
+			<data key="Year">2002</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e8" source="1" target="4">
+			<data key="Year">2003</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e9" source="1" target="4">
+			<data key="Year">2004</data>
+			<data key="EdgeType">1</data>
+		</edge>
+		<edge id="e10" source="3" target="4">
+			<data key="Year">2005</data>
+			<data key="EdgeType">2</data>
+		</edge>
+	</graph>
+</graphml>

@@ -1,0 +1,735 @@
+id;Name;GeoScope;Region;Type
+int;string;int;int;int
+1;International Development Research Center (IDRC);1;5;3
+2;The Angola Educational Assistance Fund (AEAF);1;5;3
+3;Catholic University of Angola (UCAN), Luanda;3;1;3
+4;Centro de Investigación, Educación y Desarrollo (CIED);3;4;3
+5;Bénin. Office des Postes et des Télécommunications (OPT);3;1;1
+6;Fundacion Colombia Multicolor (FCM);3;4;3
+7;International Center for Tropical Agriculture (CIAT);1;4;2
+8;the Asociación de Cabildos Indígenas del Norte del Cauca [association of Indigenous governing councils of North Cauca] (ACIN);3;4;3
+9;Corpotunía;3;4;3
+10;Cipasla (Interinstitutional Consortium for Sustainable Agriculture in Hillsides);3;4;3
+11;Universitas Terbuka (UT);3;1;3
+12;University of British Columbia;3;5;3
+13;Family Support Institute (FASI);3;2;3
+14;EcoNews Africa;2;2;3
+15;United States Agency for International Development (USAID);1;5;1
+16;African Education Initiatives;2;5;3
+17;Government of Madagascar (GOM);3;1;1
+18;Pact and Catholic Relief Services (CRS);1;5;3
+19;United Nations Population Fund (UNFPA);1;5;2
+20;Secretariat of the Pacific Community (SPC);2;6;2
+21;University Eduardo Mondlane;3;2;3
+22;Latin American Information Agency (ALAI) (Fundación Agencia Latinoamericana de Información [EC]);1;4;3
+23;Telecomunicaçoes de Moçambique (TDM) (Public Telecommunication Company );3;2;1
+24;Union mondiale pour la nature (UICN);1;2;3
+25;Philippine Council for Health Research and Development;3;1;1
+26;The Department of Science and Technology (DOST);3;1;1
+27;Sénégal. Ministère de la communication ;3;2;1
+28;Agence de Régulation des Télécommunications;3;2;1
+29;Groupe pour l'Etude et l'Enseignement de la Population (GEEP);3;2;3
+30;Club 2/3;3;5;3
+31;School Online;3;5;3
+32;ICN (International Computer Et Networks);3;2;4
+33;West Africa Rural Foundation (WARF);1;2;3
+34;Fondation Paul Gérin-Lajoie (FFGL);3;5;3
+35;CIET Canada;1;5;3
+36;BEES Consulting Group;3;2;2
+37;Tanzania Commission for Science and Technology (COSTECH);3;2;1
+38;Tanzania Telecommunication Company Ltd (TTCL);3;2;4
+39;Tanzania Communications Regulatory Authority (TCRA);3;2;1
+40;United Nations Educational, Scientific and Cultural Organization (UNESCO);1;5;2
+41;International Telecommunication Union (ITU);1;3;2
+42;Tanzania Open University;3;2;3
+43;Uganda National Council for Science and Technology (UNCST);3;2;1
+44;Council for the Economic Empowerment for Women in Africa (CEEWA);2;2;3
+45;National Agricultural Research Organization (NARO);3;2;1
+46;European Union (EU);2;3;2
+47;Makerere University;3;2;3
+48;Ministry of Education, Zambia;3;2;1
+49;Academy for Educational Development;1;5;3
+50;American Institutes for Research;3;5;3
+51;Aga Khan Foundation U.S.A.;1;5;3
+52;CARE;1;5;3
+53;Center for Collaboration and the Future of Schooling;3;5;3
+54;East-West Center;1;5;3
+55;Education Development Center (EDC);1;5;3
+56;Institute for International Studies in Education, University of Pittsburgh;3;5;3
+57;International Rescue Committee;1;5;3
+58;Michigan State University;3;5;3
+59;Mississippi Consortium for Intenational Development (MCID);3;5;3
+60;ORC MACRO;1;5;4
+61;Research Triangle Institutes (RTI);1;5;4
+62;The Joseph P. Kennedy Jr. Foundation;3;5;3
+63;University of Minnesota;3;5;3
+64;Women's Commission for Refugee Women and Children;3;5;3
+65;Department for International Development (DFID);3;3;1
+66;One World International (OWI);1;3;3
+67;International Institute for Communication and Development (IICD);1;3;3
+68;Canadian International Developmental Agency (CIDA);3;5;1
+69;Accenture;1;5;4
+70;M.S. Swaminathan Research Foundation;3;1;3
+71;Harvard University;3;5;3
+72;Nortel Networks;1;5;4
+73;International Centre for Research in Agroforestry (a.k.a. World Agroforestry Centre);1;2;2
+74;International Women's Tribune Centre (IWTC);1;5;3
+75;International Fund for Agricultural Development (IFAD);1;3;2
+76;Philippines. National Economic and Development Authority (NEDA);3;1;1
+77;Population and Community Development Association (PDA);3;1;3
+78;International Centre for Integrated Mountain Development (ICIMOD);1;1;3
+79;Nexus Research Co-operative;1;3;3
+80;WorldLink Communications Pvt Ltd;1;1;4
+81;Sarhad Rural Support Programme (SRSP);3;1;3
+82;Zamboanga del Norte Center for Social Concerns and Development, Inc.;3;1;3
+83;United Nations Development Fund for Women (UNIFEM);1;5;2
+84;Philippines. Dept. of Agrarian Reform;3;1;1
+85;Universidad Autónoma Metropolitana. Unidad Xochimilco;3;4;3
+86;Council for Scientific and Industrial Research (CSIR), Johannesburg;2;2;3
+87;Universal Service Agency (USA);3;2;1
+88;m-powa;1;2;4
+89;World Bank;1;5;2
+90;Ministry of Communications, Transitional Islamic State of Afghanistan;3;1;1
+91;Afghan Aid Coordination Agency;3;1;1
+92;Globecomm Systems Inc.;1;5;4
+93;Bank of Algeria;3;2;1
+94;Ministry of Posts and Telecommunications, Algeria;3;2;1
+95;McCarthy Tétrault LLP;3;5;4
+96;Detecon Consulting;1;3;4
+97;Rothschild Conseil International;1;3;4
+98;Gide Loyrette Nouel;3;3;4
+99;Debonnefoy & Troullier Partners;1;3;4
+100;CRC Sogema;1;5;4
+101;Tecsult International Limitee;1;5;4
+102;Ernst & Young;1;3;4
+103;ICF Consulting;1;5;4
+104;Grupo Santander;1;3;4
+105;Ministry of Finance, The Republic of Armenia;3;1;1
+106;Enterprise Incubator Foundation (EIF);3;1;1
+107;Vani LTD;3;1;4
+108;Kvazar-Micro Tekhno CJSC ;3;3;4
+109;Cornet-AM CJSC;3;1;4
+110;Energatsantsshin OJSC;3;1;4
+111;Ministry of Post and Telecommunications (MOPT), Bangladesh;3;1;1
+112;Interconnect Communications LTD;3;3;4
+113;Sea Consultants;1;1;4
+114;TCI International INC;1;5;4
+115;E. Farell Consulting CO;3;5;4
+116;NDC Group;1;1;4
+117;MCI Worldcom International, INC.;1;5;4
+118;New Skies Satellites N.V.;1;3;4
+119;IEE;1;1;4
+120;Ministry of Economic Development, Burkina Faso;3;2;1
+121;Ciber, INC.;1;5;4
+122;Faso Baara;3;2;4
+123;EODA (ELECTRIFICATION, ONDULATION, DISTRIBUTION & ASSISTANCE);3;2;4
+124;State Ministry of Plan, Dvptl & Gov. Coordination; Government of Cote d'Ivoire;3;2;1
+125;National Institute of Public Administration, Government of Dominican Republic;3;4;1
+126;Medios Digitales, S. A.;3;4;4
+127;Instituto Tecnologico de Estudios Superiores de Monterrey, Mexico; D.F.;3;4;3
+128;Instituto Interamericano de Cooperacion Agricola (IICA), Costa Rica;2;4;2
+129;Centro de Educacion a Distancia para el Desarrollo Economico y Tecnologico (CEDDET);2;3;3
+130;Japan International Cooperation Agency (JICA);3;1;1
+131;Organization of American States, Young Americas Business Trust (YABT);2;5;3
+132;Universidad de los Andes, Colombia;3;4;3
+133;Pontificia Universidad Catolica del Peru;3;4;3
+134;Universidad de Guadalajara, Mexico, D.F.;3;4;3
+135;Universidad de Chile;3;4;3
+136;Universidad Tecnica Particular de Loja, Ecuador;3;4;3
+137;United Nations Development Programme (UNDP);1;5;2
+138;The United Nations Children's Fund (UNICEF);1;5;2
+139;Dominican Institute of Telecommunications (INDOTEL), Government of Dominican Republic;3;4;1
+140;Compania Dominicana de Telefonos (CODETEL) (Verizon);3;4;4
+141;TRICOM;3;4;4
+142;CECOMSA;3;4;4
+143;International Small Islands Studies Association (ISISA);1;6;3
+144;Advantics;3;3;4
+145;Universal De Computos;3;4;4
+146;Government Council for Modernization of the State (CONAM), Republic of Ecuador;3;4;1
+147;Ethiopian Civil Service College (ECSC);3;2;3
+148;Open University Worldwide;1;3;3
+149;Intelsat USA Sales Corp;1;5;4
+150;Department of Telecommunications (DOT), India;3;1;1
+151;Telecommunications Regulatory Authority of India (TRAI);3;1;1
+152;Universidad Iberoamericana;3;4;3
+153;Himachal Futuristic Communications, LTD;1;1;4
+154;Thales Communications;1;3;4
+155;University of Indonesia;3;1;3
+156;Ministry of National Education (MONE), Indonesia;3;1;1
+157;Ministry of Tourism; Art and Culture, Republic of Indonesia;3;1;1
+158;Kadin Telematika;3;1;4
+159;Mastel;3;1;3
+160;Tim Koordinasi Telematika Indonesia (TKTI);3;1;3
+161;Computer Software Association of Indonesia;3;1;3
+162;Indonesian Warnet Association;3;1;3
+163;Association of Indonesian Internet Service Providers;3;1;3
+164;Ministry of Economic Affairs and Development, Government of Mauritania;3;2;1
+165;Dell;1;5;4
+166;Ministry of Transport and Communications, Republic of Mozambique;3;2;1
+167;David Townsend & Associates;3;5;4
+168;Tadiran Electronic Systems Ltd.;3;1;4
+169;Dataserv;1;2;4
+170;Nathan Associates;3;5;4
+171;Confederation of Mozambique Business Associations;3;2;3
+172;Ministry of Industry and Commerce, Republic of Mozambique;3;2;1
+173;Ministry of Social and Economic Affairs, Republic of Mozambique;3;2;1
+174;Ministry of Information and Communications, Nepal;3;1;1
+175;Nepal Telecommunications Authority;3;1;1
+176;STM Telecom Sanchar Limited;1;5;4
+177;The Waves Group;3;1;4
+178;Booz Allen Hamilton Inc;1;5;4
+179;Organisation Development Centre Inc.;3;1;4
+180;Pentascope International;1;3;4
+181;Spectrocan Solutions Ltd;1;5;4
+182;Spectrum Strategy Consultants;1;3;4
+183;Quotient Associates;1;3;4
+184;Ministry of Finance, Republic of Nicaragua;3;4;1
+185;Sinfra Comunicaciones;3;4;1
+186;APOYO Consultoría;1;4;4
+187;Strategic Policy Research;3;5;4
+188;BNP Paribas;1;3;4
+189;Santander Central Hispano;1;3;4
+190;KPMG;1;5;4
+191;O'Melveny and Myers;1;5;4
+192;FIIAPP;1;3;3
+193;Comunidad Nativa Mariankiari Bajo;3;4;3
+194;Ministry of Posts and Telecommunications, Independent State of Samoa;3;6;1
+195;SamoaTel;3;6;1
+196;Gilbert + Tobin;3;6;4
+197;Comgate Telemanagement;1;5;4
+198;KVA Consult;3;6;4
+199;Hans Kok Business Consult BV;3;3;4
+200;Yeoman Ward International;1;6;4
+201;Computer Services Limited;3;6;4
+202;Intercai Mondiale UK Ltd;1;3;4
+203;Intelecon Research & Consultancy Ltd.;3;5;4
+204;PricewaterhouseCoopers;1;5;4
+205;Sofrecom;1;3;4
+206;Instituto Tecnologico de las Americas (ITLA);3;4;3
+207;Centro de soporte tecnico Y Comunicaciones (CESTEC);3;4;4
+208;ENS Enterprise Systems;3;4;4
+209;Universidad Argentina de la Empresa (UADE);3;4;3
+210;Cibertele;3;3;4
+211;Clifford Chance;1;3;4
+212;International Intelligence Ltd;1;3;4
+213;Diantika & Associates;3;1;4
+214;Multidata Rancana Prima;3;1;4
+215;The E-Team;3;5;4
+216;Tradegate;3;6;3
+217;Institute for Development Studies;1;3;3
+218;HLB Consulting;1;1;4
+219;SAGRIC International;3;6;4
+220;Ministry of State Modernization, Government of Senegal;3;2;1
+221;Université Cheikh Anta Diop (UCAD) (Cheikh Anta Diop University);3;2;3
+222;CRESP (Center of Ressources for the Emergence of Social Participation) =Centre de ressources pour l'émergence sociale participative (CRESP);3;2;3
+223;Government of National Unity, South Africa;3;2;1
+224;Commonwealth Telecommunications Organisation;1;3;2
+225;GAMOS;1;3;3
+226;PANOS;1;3;3
+227;ICT Development Associates Ltd;3;3;3
+228;The Bank of Central African States (BEAC);2;2;2
+229;Ingenico Data Systems- Sofracin;3;3;4
+230;Hightech Payment Systems (HPS);3;2;4
+231;BFI;3;2;4
+232;CMA France;1;3;4
+233;Telecom Operations;3;3;4
+234;LEXEM;3;3;4
+235;GOPA Consultants;1;3;4
+236;United Nations Economic Commission for Africa (UNECA);2;2;2
+237;Federal Communications Commission (FCC);3;5;1
+238;Office of the U.S. Trade Representative;3;5;1
+239;Department of Commerce (DOC);3;5;1
+240;U.S. Telecommunications Training Institute (USTTI);3;5;3
+241;Dutch Directorate-General for International Cooperation (DGIS)  (Ministry of Foreign Affairs);3;3;1
+242;The Association of Community Radio Broadcasters (AMARC);1;5;3
+243;Association of Amazonian Universities;2;4;3
+244;Oxford Learning Space Limited;1;3;3
+245;University of Ottawa;3;5;3
+246;ASEAN Foundation;2;1;2
+247;McGill University;1;5;3
+248;Université d'Abomey-Calavi (UAC);3;1;3
+249;Ministry of Education, Swaziland;3;2;1
+250;Distance Learning Center; LTD;1;1;2
+251;International Video Conferencing, Inc.;3;5;4
+252;Texel Corporation;3;5;4
+253;University of Southern Queensland;3;6;3
+254;UNAIDS (United Nations for Programme on HIV/AIDS);1;3;2
+255;PADECO;1;1;4
+256;Asian Institute of Management;2;1;3
+257;Islamic Development Bank;2;1;2
+258;Ghana Institute of Management;3;2;3
+259;University of the Witwatersrand (WITS);1;2;3
+260;Rossing Foundation;3;2;4
+261;Telecom Namibia;3;2;1
+262;National Art Gallery, Namibia;3;2;1
+263;World Teach;1;5;3
+264;University of Namibia;3;2;3
+265;Polytechnic of Namibia;3;2;3
+266;Institute of Information & Technology, Namibia;3;2;1
+267;Ministry of Basic Education, Namibia;3;2;1
+268;Moçambique. Ministério da Educaçâo (MINED);3;2;1
+269;Forum Mulher;3;2;3
+270;Royal Tropical Institute (KIT);1;3;3
+271;Royal Netherlands Embassy Mali;1;2;1
+272;Institut d'Economie Rurale (IER);3;2;1
+273;Nederlands Economisch Instituut (NEI);3;3;3
+274;United Nations System Staff College (UNSSC);1;3;2
+275;Department of Foreign Affairs and International Trade, Canada;3;5;1
+276;Fundacion Renacer;2;4;3
+277;Fundacion Chasquinet;1;4;3
+278;Agriculture and Agri-Food Canada;3;5;1
+279;West Africa Rice Development Association;2;2;2
+280;Institute of Information Technology (IOIT);3;1;3
+281;National Centre of Scientific, Technology Information & Documentation (NACESTID); Viet Nam;3;1;1
+282;Centre for Science and Technology Information (CESTI), Viet Nam;3;1;1
+283;Greater Edendale Environmental Network (GREEN);3;2;3
+284;University of Natal, Institute of Natural Resources (INR);3;2;3
+285;Willowfountain Youth Development Forum (WYDF);3;2;3
+286;Edendale YMCA;1;2;3
+287;Sobantu Environmental Desk (SED);3;2;1
+288;GSM Association (GSMA);1;5;3
+289;Landcare South Africa;3;2;1
+290;National Development Agency, South Africa;3;2;1
+291;KwaZulu-Natal Department of Agriculture;3;2;1
+292;Togan Computers;3;2;4
+293;Horizon Computers;3;2;4
+294;Sharenet;3;2;3
+295;ESP Foundation (English for Special Purpose Foundation);3;1;3
+296;Egyptian Technical University;3;2;3
+297;Alexandria Institute of Technology;3;5;3
+298;PALTech;3;5;3
+299;Institute for International Education;1;5;3
+300;Mendez England and Associates;1;5;4
+301;Tibet University;3;1;3
+302;Tibet Academy of Agricultural and Animals Sciences (TAAAS);3;1;3
+303;Ethiopian ICT Development Authority (EICTDA);3;2;1
+304;Rabeco Trading;3;3;4
+305;Etecsa (PTY) Ltd.;3;2;4
+306;ATDI SA;1;3;4
+307;Prince of Wales International Business Leaders (IBLF);1;3;4
+308;Family Health International;1;5;3
+309;Johns Hopkins University;3;5;3
+310;The Ministry of Health, Pakistan;3;1;1
+311;Ministry of Population Welfare, Pakistan;3;1;1
+312;Voluntary Service Overseas Canada (VSOC);1;5;3
+313;Open Society Foundation (OSF);3;2;3
+314;Thintana Communications LLC;3;2;4
+315;Intel;1;5;4
+316;Microsoft;1;5;4
+317;Telkom Foundation;3;2;3
+318;The Internet Solution;3;2;4
+319;Simeka TWS-IT;3;2;4
+320;Sun Microsystems;1;5;4
+321;Cambridge University;3;3;3
+322;Aidworld (Aptivate);1;3;3
+323;Save the Children;1;5;3
+324;Red Cross;1;3;3
+325;UN Office for the Coordination of Humanitarian Affairs (OCHA);1;5;2
+326;Perwit International;1;5;4
+327;Trade Point Senegal;2;2;3
+328;University of New Brunswick (UNB);3;5;3
+329;Universidad Tecnológica Equinoccial;3;4;3
+330;Instituto Superior Politécnico José Antonio Echeverria (ISPJAE);3;4;3
+331;Agence universitaire de la francophonie (AUF);1;5;2
+332;Escola Secundária Emilia Daússe de Inhambane;3;2;1
+333;Kenya. Ministry of Planning and National Development;3;2;1
+334;Kenya. Office of the President;3;2;1
+335;African Regional Centre for Computing;2;2;3
+336;Association for Progressive Communications (APC);3;5;3
+337;SANGONeT (Association Incorporated under Section 21);2;2;3
+338;Lisa Thornton Inc.;3;2;4
+339;Centre national de documentation scientifique et technique [SN];3;2;1
+340;Afghan Telecom;3;1;1
+341;Pakistan Telecommunications Company Limited;3;1;4
+342;International Crops Research Institute for the Semi-Arid Tropics (ICRISAT);1;1;3
+343;National University of Computer and Emerging Sciences, Pakistan;3;1;3
+344;Organization of African Unity (African Union);2;2;3
+345;University of the Western Cape;3;2;3
+346;Swedish International Development Cooperation Agency (SIDA);1;3;1
+347;Atos Consulting;1;3;4
+348;Communications Commission of Kenya (CCK);3;2;1
+349;NetTel @Africa;2;2;3
+350;Communications Regulators Association of Southern Africa (CRASA);2;2;3
+351;Association of Regulators of Information and Communication for Eastern and Southern Africa (ARICEA);2;2;2
+352;West African Telecommunications Regulators Association (WATRA);2;2;2
+353;Kenya ICT Action Network (KICTANet);3;2;3
+354;National Informatics Centre (NIC) of the Department of Information Technology, India;3;1;1
+355;Fédération nationale des G.I.E. de pêcheurs du Sénégal (FENAGIE-PECHE);3;2;3
+356;Industry Canada;3;5;1
+357;Université de Montréal (UM);3;5;3
+358;Educational Research Network for West and Central Africa (ROCARE);2;2;3
+359;Outside Echo Ltd;1;3;3
+360;Promotion of Rural Initiatives and Development Enterprises (PRIDE Africa);1;2;3
+361;University of Nairobi;3;2;3
+362;Princeton University;3;5;3
+363;Institute for Connectivity in Americas (ICA);1;5;3
+364;Carleton University;3;5;3
+365;Universidade Federal do Rio de Janeiro (Federal University of Rio de Janeiro );3;4;3
+366;Fundación Escuela Latinoamericana de Redes;2;4;3
+367;University of Oregon;1;5;3
+368;Colombia Telecoms Regulator (CRT);3;4;1
+369;Centro de Investigación y Docencia Económicas, A.C. (CIDE);1;4;3
+370;Rede de Informações para o Terceiro Setor (RITS);1;4;3
+371;Colegio-Mayor Universitario;3;4;3
+372;Japan Telecommunications Engineering and Consulting Service (JTEC);3;1;1
+373;Angola Telecom;3;1;4
+374;Instituto das Comunicacoes de Portugal (ICP);3;3;1
+375;The Ministry of Foreign Affairs of Japan (MOFA);3;1;1
+376;Government of Angola;3;1;1
+377;Fundación Servicio Universitario Mundial;3;4;3
+378;D.Net;3;1;3
+379;Centre Songhai;3;1;3
+380;Ministry of Finance; Bhutan;3;1;1
+381;Department of Information Technology (DIT), Bhutan;3;1;1
+382;Ministry of Information and Communication, Bhutan;3;1;1
+383;Canadian Physicians for Aid & Relief (CPAR);1;5;3
+384;Swiss Agency for Development and Cooperation (SADC);1;3;1
+385;Afriklinks;3;2;3
+386;Centro Peruano De Estudios Sociales (CEPES);3;4;3
+387;The Community Learning and Information Center (CLIC) Mali;3;2;3
+388;Colnodo;3;4;3
+389;COMPARTEL;3;4;1
+390;CSDMS;3;1;3
+391;ESPLAI;3;3;3
+392;Nonprofit Enterprise and Self-sustainability Team (NESST);1;5;3
+393;Sarvodaya;3;1;3
+394;Sri Lanka Information & Communication Technology Agency;3;1;1
+395;Taiguey Foundation;3;4;3
+396;Ministry of Services and Public works, Bolivia;3;4;1
+397;Ministry of Economic Development, Bolivia;3;4;1
+398;Isofoton;1;3;4
+399;Energetica-Aned-Hansa;3;4;4
+400;U.S. Trade and Development Agency (USTDA);3;5;1
+401;BH Telecom;3;3;4
+402;Instituto de Estudos da Religião (ISER);3;4;3
+403;Inversiones Electronicas, Sociedad de Responsabilidad Limitada (Alooo.com);2;4;4
+404;Forum for Street Children (FSCE);3;2;3
+405;The British Council;1;3;1
+406;Ethiopian Telecommunications Corporation;3;2;4
+407;Action Aid;1;2;3
+408;International Finance Corporation (IFC);1;5;2
+409;Ghana Information Network for Knowledge Sharing (GINKS);3;2;3
+410;Ford Foundation;1;5;3
+411;Department of Science and Technology, India;3;1;1
+412;Government of Pondicherry;3;1;1
+413;Volkart Foundation;1;3;3
+414;Space Application Centre (SAC), Ahmedabad;3;1;3
+415;Sustainable Agriculture & Environmental Voluntary Action (SEVA), Madurai;3;1;3
+416;Rajiv Gandhi College of Veterinary and Animal Sciences, Pondicherry;3;1;3
+417;Indian National Center for Ocean Information Services (INCOIS);3;1;1
+418;Aravind Eye Hospital, Tamil Nadu and Pondicherry;1;1;3
+419;Tuberculosis Research Centre, Chennai;3;1;3
+420;India Meteorological Department;3;1;1
+421;SAGODARI;3;1;3
+422;VOLONTARIAT;3;1;3
+423;Ariyankuppam Coconut Farmers Association;3;1;3
+424;Azim Premji Foundation, Bangalore;3;1;3
+425;Department of Health, India;3;1;1
+426;Department of Industries, India;3;1;1
+427;Electronic Commission, India;3;1;1
+428;Pondicherry Cooperative Milk Producers Union Limited (PONLEIT);3;1;4
+429;United Nations Fund for International Partnerships (UNFIP);1;5;2
+430;Romain Rolland Library, Pondicherry;3;1;3
+431;Department of Fisheries, India;3;1;1
+432;Department of Agriculture, India;3;1;1
+433;District Rural Development Agency (DRDA);3;1;1
+434;National Bank for Agricultural and Rural Development;3;1;1
+435;All India Radio;3;1;1
+436;IBM Canada;1;5;4
+437;Sasktel International;1;5;4
+438;Department of Telecommunications, India;3;1;1
+439;Bharat Sanchar Nigam Limited, India;3;1;4
+440;Botswana Telecommunications Authority;3;2;1
+441;Asian Development Bank (ADB);1;1;2
+442;Ministry of Finance and Treasury, Maldives;3;1;1
+443;National Medical University of Mongolia;3;1;3
+444;Al Akhawayn University;3;2;3
+445;Omar Dengo Foundation (FOD);2;4;3
+446;Fundación Comisión Asesora en Alta Technología;3;4;3
+447;National Institute of Educational Development (NIED);3;2;1
+448;Community Education Computer Society, South Africa;3;2;3
+449;Commission on Science and Technology for Sustainable Development in the South (COMSATS);1;1;2
+450;Fédération nationale des G.I.E. de pêcheurs du Sénégal (FENAGIE-PECHE);3;2;3
+451;Institut fondamental d'Afrique noire (IFAN);3;2;3
+452;Forut- Senegal;3;2;3
+453;National Computer Systems, Ltd.;2;1;4
+454;Electroteks Global Networks, Ltd.;1;1;4
+455;Tunisys;3;2;4
+456;Idate;2;3;4
+457;Uganda. National Curriculum Development Centre;3;2;1
+458;Ministry of Economy and Issues of European Integration, Ukraine;3;3;1
+459;Ministry of Communication Technologies and Transport, Tunisia;3;2;1
+460;AusAid;1;6;1
+461;Hewlett-Packard;1;5;4
+462;Telesystem Ltd;1;5;4
+463;Big World;3;3;3
+464;Commonwealth Youth Programme;1;3;2
+465;EABS Bank;3;2;4
+466;First National Bank (FNB);3;2;4
+467;KHULA;3;2;1
+468;Mega (Mpumalanga Economic Growth Agency);3;2;1
+469;Nokia;1;3;4
+470;Ericsson;1;3;4
+471;Grameen Telecom;3;1;3
+472;Armonia;3;4;3
+473;Danish Development Assistance Agency (DANI);3;3;1
+474;Alcatel;1;3;4
+475;Bhutan Telecom;3;1;4
+476;United Nations High Commission for Refugees (UNHCR);1;3;2
+477;World Health Organization (WHO);1;3;2
+478;Food and Agriculture Organization of the United Nations (FAO);1;3;2
+479;Government of Bulgaria;3;3;1
+480;Bulgaria Telecom;3;3;4
+481;Intercom Nodo Ecuanex;3;4;3
+482;Government of Guinea;3;2;1
+483;Department of Tourism, Post and. Telecommunications (MTPT), Indonesia;3;1;1
+484;Siemens;1;5;4
+485;Information Technology Associates, New Jersey;3;5;4
+486;Singapore Telecommunication Academy;3;1;3
+487;Swedtel;1;3;4
+488;Arthur Andersen;1;5;4
+489;University of Mali;3;2;3
+490;Cisco Systems;1;5;4
+491;SOTELMA (Société des Télécommunications du Mali);3;2;1
+492;Ministry of Culture and Tourism, Mali;3;2;1
+493;Government of Mongolia;3;1;1
+494;Datacom Co. Ltd;1;1;4
+495;John D. and Catherine T. MacArthur Foundation;3;5;3
+496;University of Ibadan;3;2;3
+497;Bayero University, Kano;3;2;3
+498;Ahmadu Bello University;3;2;3
+499;University of Port Harcourt;3;2;3
+500;University of Pennsylvania;3;5;3
+501;BBC World Trust;1;3;3
+502;Shell;1;3;4
+503;Elf Petroleum Ltd.;3;2;4
+504;Carnegie Corporation;3;5;3
+505;Rockefeller Foundation;1;5;3
+506;University of Papua New Guinea;3;6;3
+507;African Regional Advanced Level Telecommunications Institute (AFRALTI);2;2;2
+508;Bridges.Org;1;2;3
+509;UN Economic and Social Commission for Western Asia (ESCWA);2;1;2
+510;UN Economic Commission for Latin America and the Caribbean (ECLAC);2;4;2
+511;The National Telephone Cooperative Association (NTCA);3;5;3
+512;Ministry of Education, Youth Affairs and Culture, Barbados;3;4;1
+513;SONATEL;3;2;4
+514;University Hospital of Dakar-Fann, Senegal;3;2;3
+515;Environmental Development Action in the Third World (ENDA);1;2;3
+516;Alternative Information and Development Centre (AIDC);3;2;3
+517;University of Colombo;3;1;3
+518;IT University of Stockholm;3;3;3
+519;Government of Sri Lanka;3;1;1
+520;Japan Bank for International Cooperation (JBIC);3;1;1
+521;Republic of Korea;3;1;1
+522;Telephone Organization of Thailand (TOT);3;1;1
+523;Viet Nam Post and Telecommunications;3;1;1
+524;Austrian Development Agency (ADA);1;3;1
+525;HORIZONT3000;3;3;3
+526;Austria-Zimbabwe Friendship Association;1;3;1
+527;Upper Austrian Provincial Government;3;3;1
+528;Kunzwana Trust;3;2;3
+529;World Links;1;5;3
+530;Ministry of Education, Zimbabwe;3;2;1
+531;DTI International;1;5;4
+532;MBI;3;2;4
+533;Postes Canada;3;5;1
+534;Sofrepost;3;3;4
+535;Consultative Group to Assist the Poor (CGAP);1;5;3
+536;Institute of Strategic Analysis and Policy Research (INSAP);3;1;3
+537;Jordan Telecommunications Corporation (TCC);3;1;4
+538;European Investment Bank;2;3;2
+539;Ministry Of International Trade, Japan;3;1;1
+540;Eximbank, Japan (The Export-Import Bank of Japan);3;1;4
+541;Tanzania Posts and Telecommunications Corporation (TPTC);3;2;1
+542;Government of Tanzania;3;2;1
+543;African Development Bank;1;2;2
+544;Amsterdam-Rotterdam Bank (ABN AMRO);1;3;4
+545;Credit Lyonnais, France;3;3;4
+546;Export-Import Bank Of The United States (Eximbank);1;5;1
+547;Government of France;3;3;1
+548;Government of Spain;3;3;1
+549;Overseas Economic Cooperation Fund;3;1;1
+550;Sumitomo Trust And Banking Co. Ltd.;1;1;4
+551;Kreditanstalt Fur Wiederaufbau (Kfw);2;3;4
+552;Government of Indonesia;3;1;1
+553;Perumtel / Postel;3;1;1
+554;Nepal Telecommunications Corporation (NTC);3;1;1
+555;Ministry For Foreign Affairs, Finland;3;3;1
+556;Government of Japan;3;1;1
+557;Nigerian Telecommunications Limited (NITEL);3;2;4
+558;Federal Government of Nigeria (FGN);3;2;1
+559;Government of Lao People's Democratic Republic;3;1;1
+560;Enterprise of Post and Telecommunications Lao (EPTL);3;1;1
+561;Post and Telecommunication Corporation (PTC), Papua New Guinea;3;6;1
+562;Government of Papua New Guinea;3;6;1
+563;Posts and Telecommunications Department (P&D), Fiji;3;6;1
+564;Government of Fiji;3;6;1
+565;Uganda Posts and Telecommunications Corporation's (UPTC);3;2;1
+566;Government of Uganda;3;2;1
+567;Ghana Post and Telecommunications Corp.;3;2;1
+568;Government of Ghana;3;2;1
+569;ONATEL (Office National des Telecommunications);3;2;1
+570;Ministry of Transport, Post, and Communications, Burundi;3;2;1
+571;Government of Burundi;3;2;1
+572;Actionaid UK;1;3;3
+573;Overseas Development Institute (ODI);3;3;3
+574;Literacy and Empowerment (Fort Portal);3;2;3
+575;CABI Africa Regional Centre (CABI-ARC);1;2;2
+576;Kenya Agricultural Commodity Exchange;3;2;4
+577;Institute for Development Policy and Management, University of Manchester (IDPM);3;3;3
+578;Centre for Development Studies, India;3;1;3
+579;Kerala IT Mission;3;1;1
+580;Women of Uganda Network (WOUGNET);3;2;3
+581;Working Women's Forum;3;1;3
+582;Practical Action (formerly Intermediate Technology Development Group);1;3;3
+583;Business Advisory Services Center, Bangladesh;3;1;4
+584;Deccan Development Society;3;1;3
+585;Technical Teachers Training Institute;3;1;1
+586;African Centre for Women (ACW);1;2;2
+587;Centre for Science and Environment (CSE);2;1;3
+588;Foundation for Revitalisation of Local Health Traditions (FRLHT);3;1;3
+589;Centre for Research and Development of Ethnomedicinal Plants (CREDEP);3;1;3
+590;ETC International;1;3;3
+591;Electoral Institute of South Africa (EISA);3;2;3
+592;Panafrican Institute for Development - Central Africa;2;2;3
+593;Caribbean Community (CARICOM);2;4;2
+594;Mestor Associates;3;5;4
+595;International Research Foundation for Open Learning (IRFOL);1;3;3
+596;Vietnam. Ministry of Health;3;1;1
+597;Corporación de Salud y Politicas Sociales;3;4;3
+598;Indira Gandhi National Open University (IGNOU);3;1;3
+599;Allama Iqbal Open Universtiy (AIOU);3;1;3
+600;Open University of Sri Lanka (OUSL);3;1;3
+601;Yashwantrao Chavan Maharashra Open University (YCMOU);3;1;3
+602;Bangladesh Open University (BOU);3;1;3
+603;Fundación Acceso;2;4;3
+604;South Asia Partnership - Nepal;2;1;3
+605;Centro de Investigación y Educación Popular (CINEP);3;4;3
+606;Fundación Redes y Desarrollo (FUNREDES);1;4;3
+607;Global Knowledge Partnership (GKP);1;1;3
+608;Government of Malaysia;3;1;1
+609;Observatoire sur les info-routes et les réseaux au Sénégal (OSIRIS);3;2;4
+610;Informatique technologies de l'information et géomatique (ITIGEO sarl);3;2;4
+611;International Institute for Information Technology (INIIT);3;2;4
+612;European Commission;2;3;2
+613;University of Cape Town;2;2;3
+614;University of the Witwatersrand;1;2;3
+615;Mongolian Information Development Association (MIDAS);3;1;3
+616;Kenya Private Sector Foundation (KPSF);3;2;3
+617;International Institute for Sustainable Development  (IISD);1;5;3
+618;Conférence de télécommunications Ouest africaines (CTOA);2;2;3
+619;l'École supérieure multinationale des télécommunications (ESMT);2;2;2
+620;l'Office des postes et télécommunications (OPT) du Bénin;3;1;1
+621;Government of People's Republic of China, Ministry of Information Industry (MII);3;1;1
+622;The Asia-Pacific Telecommunity  (APT);1;1;2
+623;The Kingdom of Cambodia;3;1;1
+624;The Union of Myanmar;3;1;1
+625;The Kingdom of Thailand;3;1;1
+626;United Nations Economic and Social Commission for Asia and the Pacific (UNESCAP);2;1;2
+627;Ministry of Communications, South Africa;3;2;1
+628;United Nations ICT Task Force (UNICTTF);1;5;2
+629;Royal Institute of Technology (KTH);3;3;3
+630;Government of Namibia;3;2;1
+631;Cooperation Committee for Cambodia (CCC);1;1;3
+632;Government of Malawi;3;2;1
+633;National Research Council of Malawi ;3;2;1
+634;Nepal Internet Exchange;3;1;3
+635;International Care and Relief, Uganda;1;2;3
+636;United Nations Conference on Trade and Development (UNCTAD);1;3;2
+637;Canadian Commission for Unesco;1;5;1
+638;Isis International Women's Information and Communication Service, Inc.;2;1;3
+639;Development Bank of Southern Africa;2;2;1
+640;Kabissa, Inc.;1;5;3
+641;Organization for Social Science Research in Eastern Africa and Southrn Africa (OSSREA);3;2;3
+642;International Network for the Availability of Scientific Publications (INASP);1;3;3
+643;ISIS-WICCE (Women's International Cross Cultural Exchange);1;2;3
+644;Computers for Schools Kenya (CFSK);3;2;3
+645;Asociación Civil Grupo Redes;2;4;3
+646;Asian Media Information and Communication Centre Ltd (AMIC);2;1;3
+647;Lao People's Democratic Republic. Science Technology and Environment Agency;3;1;1
+648;Association of Southeast Asian Nations (ASEAN);2;1;2
+649;Secretaria General de la Comunidad Andina (SGCAN);1;4;4
+650;Commonwealth of Learning (COL);1;5;2
+651;Humanist Institute for Cooperation with Developing Countries (Hivos);1;3;3
+652;African Information Technology Exhibitions and Conferences (AITEC);1;3;4
+653;World Economic Forum;1;3;3
+654;Corporación Maule Activa;3;4;3
+655;Arid Lands Information Network (Eastern Africa) (ALIN-EA);2;2;3
+656;Caribbean Business Enterprise Trust Inc. (CBET);2;4;3
+657;IMC consortium;1;3;4
+658;The European Union of Telecottage Associations (EUTA);1;3;3
+659;Hungarian Telecentre Association;3;3;3
+660;The Pacific Community Networks Association (PCNA);3;5;3
+661;The Organisation of Eastern Caribbean States (OECS);1;4;2
+662;Telecentres of the Americas Partnership (TAP);1;5;3
+663;Higher Education South Africa (association incorporated under section 21);2;2;3
+664;Association of African Universities (AAU);1;2;3
+665;Bradesco Foundation;3;4;3
+666;International Federation for Information and Documentation (FID);1;3;3
+667;Caribbean Telecommunications Union (CTU);2;4;2
+668;GIS Development Sdn. Bhd.;2;1;4
+669;Economic Community of West African States (CEDEAO);2;2;2
+670;Consortium of Universities in Africa;2;2;3
+671;Inter-American Development Bank (IDB);2;5;2
+672;Global Research Alliance (GRA);1;2;3
+673;Science Initiative Group (SIG);1;5;3
+674;Loughborough University, Department of Information Science;3;3;3
+675;Transparency International (TI);1;3;3
+676;National Communications Authority, Ghana;3;2;1
+677;Uganda Communications Commission;3;2;1
+678;Development Gateway Foundation;1;5;3
+679;The Pacific Islands Forum;2;6;2
+680;International Youth Foundation;1;5;3
+681;Advanced Micro Devices (AMD);1;5;4
+682;Information and Communication Training Institute (ICTI), Kabul;3;1;3
+683;The Government of I.R. of Iran;3;1;1
+684;Government of Australia;3;6;1
+685;Rohde & Schwarz GmbH & Co. KG;1;3;4
+686;South African Institute for Distance Education (SAIDE);3;2;3
+687;Universidad Estatal a Distancia (UNED);3;4;3
+688;Pennsylvania State University (The American Center for the Study of Distance Education);3;5;3
+689;Uganda Telecom;3;2;4
+690;Ministry of Health (MOH), Ethiopia;3;2;1
+691;Faculty of Medicine, Ethiopia;3;2;3
+692;Organisation for Economic Cooperation and Development (OECD);1;3;2
+693;Government of Ireland;3;3;1
+694;Government of Canada;3;5;1
+695;Abdus Salam International Centre for Theoretical Physics (ICTP);1;3;2
+696;IEEE (Institute of Electrical and Electronics Engineers, Inc.);1;5;3
+697;Dar es Salaam Institute of Technology (DIT);3;2;3
+698;Agumba Computers Ltd;3;2;4
+699;RITA (Registration, Insolvency and Trusteeship Agency);3;2;1
+700;Taide Network;1;3;4
+701;Vodacom;2;2;4
+702;Skillshare International;1;3;3
+703;Ministry of Tourism, Cuba;3;4;1
+704;Common Market for Eastern and Southern Africa (COMESA);2;2;2
+705;University of Zambia;3;2;3
+706;SNV;1;3;3
+707;Gopher Publishers;1;3;4
+708;Media Plaza;3;3;3
+709;Ministry of Education, Morocco;3;2;1
+710;Caribbean Broadcasting Union;2;4;3
+711;Caribbean Development Bank;1;4;2
+712;University of the West Indies Distance Education Centre;2;4;3
+713;The Association of Caribbean Tertiary Institutions;2;4;3
+714;United Nations Department of Economic and Social Affairs (DESA);1;5;2
+715;Open Society Institute (OSI);1;5;3
+716;The Free Software and Open Source Foundation for Africa (FOSSFA);2;2;3
+717;Flemish Inter-university Council;1;3;3
+718;The Organization of American States (OAS);2;5;2
+719;Safaricom;3;2;4
+720;Barclays Bank;1;3;4
+721;AccessKenya;3;2;4
+722;Fair Allocation of Infotech Resources (FAIR Norway);1;3;3
+723;Kenya Airways;1;2;4
+724;Africa Online;3;2;4
+725;Western Union Foundation;1;5;3
+726;Computer Aid International;1;3;3
+727;Digital Links International;1;3;3
+728;Rotary club of Nairobi North;3;2;3
+729;The United States Peace Corps;1;5;1
+730;Philips Electronics;1;3;4
+731;Affno, Ltd.;3;1;4
+732;Sri Lanka Telecom;3;1;1
+733;Norwegian Agency for Development Cooperation (NORAD);3;3;1

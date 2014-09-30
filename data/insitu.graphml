@@ -1,0 +1,3429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+                             http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+<key id="name" for="node" attr.name="name" attr.type="categorical"/>
+<key id="sipub" for="node" attr.name="sipub" attr.type="integer"/>
+<key id="copub" for="node" attr.name="copub" attr.type="integer"/>
+<key id="pub" for="node" attr.name="pub" attr.type="integer"/>
+<key id="aliases" for="node" attr.name="aliases" attr.type="string"/>
+<key id="url" for="node" attr.name="url" attr.type="string"/>
+<key id="count" for="edge" attr.name="count" attr.type="integer"/>
+<key id="keys" for="edge" attr.name="keys" attr.type="string"/>
+
+<graph id="G" edgedefault="undirected">
+
+<node id="a1">
+  <data key="name">Ahlberg, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Ahlberg</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ahlberg</data>
+ </node>
+<node id="a2">
+  <data key="name">Andersen, P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Andersen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Andersen</data>
+ </node>
+<node id="a3">
+  <data key="name">André, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">André</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=André</data>
+ </node>
+<node id="a4">
+  <data key="name">Appert, C.</data>
+  <data key="sipub">1</data>
+  <data key="copub">4</data>
+  <data key="pub">5</data>
+  <data key="aliases">Appert</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Appert</data>
+ </node>
+<node id="a5">
+  <data key="name">Bastin, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Bastin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bastin</data>
+ </node>
+<node id="a6">
+  <data key="name">Baudel, T.</data>
+  <data key="sipub">3</data>
+  <data key="copub">11</data>
+  <data key="pub">14</data>
+  <data key="aliases">Baudel</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Baudel</data>
+ </node>
+<node id="a7">
+  <data key="name">Baudisch, P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Baudisch</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Baudisch</data>
+ </node>
+<node id="a8">
+  <data key="name">Beaudouin-Lafon, M.</data>
+  <data key="sipub">40</data>
+  <data key="copub">72</data>
+  <data key="pub">112</data>
+  <data key="aliases">Beaudouin-Lafon</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Beaudouin-Lafon</data>
+ </node>
+<node id="a9">
+  <data key="name">Beaudoux, O.</data>
+  <data key="sipub">6</data>
+  <data key="copub">2</data>
+  <data key="pub">8</data>
+  <data key="aliases">Beaudoux</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Beaudoux</data>
+ </node>
+<node id="a10">
+  <data key="name">Bederson, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Bederson</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bederson</data>
+ </node>
+<node id="a11">
+  <data key="name">Bellik, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Bellik</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bellik</data>
+ </node>
+<node id="a12">
+  <data key="name">Berteaud, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Berteaud</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Berteaud</data>
+ </node>
+<node id="a13">
+  <data key="name">Bier, E.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Bier</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bier</data>
+ </node>
+<node id="a14">
+  <data key="name">Billinghurst, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Billinghurst</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Billinghurst</data>
+ </node>
+<node id="a15">
+  <data key="name">Bizer, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Bizer</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bizer</data>
+ </node>
+<node id="a16">
+  <data key="name">Bizouarn, E.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Bizouarn</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bizouarn</data>
+ </node>
+<node id="a17">
+  <data key="name">Blanch, R.</data>
+  <data key="sipub">3</data>
+  <data key="copub">6</data>
+  <data key="pub">9</data>
+  <data key="aliases">Blanch</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Blanch</data>
+ </node>
+<node id="a18">
+  <data key="name">Bourgeois, F.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Bourgeois</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bourgeois</data>
+ </node>
+<node id="a19">
+  <data key="name">Braffort, A.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Braffort</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Braffort</data>
+ </node>
+<node id="a20">
+  <data key="name">Brun, P.</data>
+  <data key="sipub">2</data>
+  <data key="copub">2</data>
+  <data key="pub">4</data>
+  <data key="aliases">Brun</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Brun</data>
+ </node>
+<node id="a21">
+  <data key="name">Buchner, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Buchner</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Buchner</data>
+ </node>
+<node id="a22">
+  <data key="name">Buxton, W.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Buxton</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Buxton</data>
+ </node>
+<node id="a23">
+  <data key="name">Bøegh, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Bøegh</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Bøegh</data>
+ </node>
+<node id="a24">
+  <data key="name">Caelen, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Caelen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Caelen</data>
+ </node>
+<node id="a25">
+  <data key="name">Cambazard, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Cambazard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Cambazard</data>
+ </node>
+<node id="a26">
+  <data key="name">Cani, M-P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Cani</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Cani</data>
+ </node>
+<node id="a27">
+  <data key="name">Casalta, D.</data>
+  <data key="sipub">1</data>
+  <data key="copub">1</data>
+  <data key="pub">2</data>
+  <data key="aliases">Casalta</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Casalta</data>
+ </node>
+<node id="a28">
+  <data key="name">Castagliola, P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Castagliola</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Castagliola</data>
+ </node>
+<node id="a29">
+  <data key="name">Chalmers, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Chalmers</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Chalmers</data>
+ </node>
+<node id="a30">
+  <data key="name">Chapuis, O.</data>
+  <data key="sipub">1</data>
+  <data key="copub">8</data>
+  <data key="pub">9</data>
+  <data key="aliases">Chapuis</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Chapuis</data>
+ </node>
+<node id="a31">
+  <data key="name">Chastagner, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Chastagner</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Chastagner</data>
+ </node>
+<node id="a32">
+  <data key="name">Chatty, S.</data>
+  <data key="sipub">4</data>
+  <data key="copub">6</data>
+  <data key="pub">10</data>
+  <data key="aliases">Chatty</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Chatty</data>
+ </node>
+<node id="a33">
+  <data key="name">Christensen, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Christensen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Christensen</data>
+ </node>
+<node id="a34">
+  <data key="name">Cohen-Boulakia, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Cohen-Boulakia Boulakia</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Cohen-Boulakia OR Boulakia</data>
+ </node>
+<node id="a35">
+  <data key="name">Collomb, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Collomb</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Collomb</data>
+ </node>
+<node id="a36">
+  <data key="name">Consel, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Consel</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Consel</data>
+ </node>
+<node id="a37">
+  <data key="name">Conversy, S.</data>
+  <data key="sipub">4</data>
+  <data key="copub">11</data>
+  <data key="pub">15</data>
+  <data key="aliases">Conversy</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Conversy</data>
+ </node>
+<node id="a38">
+  <data key="name">Conway, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Conway</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Conway</data>
+ </node>
+<node id="a39">
+  <data key="name">Costa-Cunha, P.</data>
+  <data key="sipub">1</data>
+  <data key="copub">1</data>
+  <data key="pub">2</data>
+  <data key="aliases">Costa-Cunha</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Costa-Cunha</data>
+ </node>
+<node id="a40">
+  <data key="name">Cournarie, E.</data>
+  <data key="sipub">1</data>
+  <data key="copub">3</data>
+  <data key="pub">4</data>
+  <data key="aliases">Cournarie</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Cournarie</data>
+ </node>
+<node id="a41">
+  <data key="name">Coutaz, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Coutaz</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Coutaz</data>
+ </node>
+<node id="a42">
+  <data key="name">Crasson, A.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Crasson</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Crasson</data>
+ </node>
+<node id="a43">
+  <data key="name">Dachary, L.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Dachary</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Dachary</data>
+ </node>
+<node id="a44">
+  <data key="name">Dang, N.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Dang</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Dang</data>
+ </node>
+<node id="a45">
+  <data key="name">DeRose, T.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">DeRose</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=DeRose</data>
+ </node>
+<node id="a46">
+  <data key="name">Deutsch, A.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Deutsch</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Deutsch</data>
+ </node>
+<node id="a47">
+  <data key="name">Dragicevic, P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Dragicevic</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Dragicevic</data>
+ </node>
+<node id="a48">
+  <data key="name">Druin, A.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Druin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Druin</data>
+ </node>
+<node id="a49">
+  <data key="name">Du, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Du</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Du</data>
+ </node>
+<node id="a50">
+  <data key="name">Dumas, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Dumas</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Dumas</data>
+ </node>
+<node id="a51">
+  <data key="name">Dumeur, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Dumeur</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Dumeur</data>
+ </node>
+<node id="a52">
+  <data key="name">Eiderbäck, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">5</data>
+  <data key="pub">5</data>
+  <data key="aliases">Eiderbäck</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Eiderbäck</data>
+ </node>
+<node id="a53">
+  <data key="name">Eisenstein, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Eisenstein</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Eisenstein</data>
+ </node>
+<node id="a54">
+  <data key="name">Evans, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">10</data>
+  <data key="pub">10</data>
+  <data key="aliases">Evans</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Evans</data>
+ </node>
+<node id="a55">
+  <data key="name">Fayard, A-L.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Fayard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Fayard</data>
+ </node>
+<node id="a56">
+  <data key="name">Fekete, J-D.</data>
+  <data key="sipub">14</data>
+  <data key="copub">32</data>
+  <data key="pub">46</data>
+  <data key="aliases">Fekete</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Fekete</data>
+ </node>
+<node id="a57">
+  <data key="name">Ferley, E.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Ferley</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ferley</data>
+ </node>
+<node id="a58">
+  <data key="name">Fishkin, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Fishkin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Fishkin</data>
+ </node>
+<node id="a59">
+  <data key="name">Fitzmaurice, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Fitzmaurice</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Fitzmaurice</data>
+ </node>
+<node id="a60">
+  <data key="name">Froidevaux, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Froidevaux</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Froidevaux</data>
+ </node>
+<node id="a61">
+  <data key="name">Galas, T.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Galas</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Galas</data>
+ </node>
+<node id="a62">
+  <data key="name">Gangnet, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Gangnet</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gangnet</data>
+ </node>
+<node id="a63">
+  <data key="name">Gascuel, J-D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Gascuel</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gascuel</data>
+ </node>
+<node id="a64">
+  <data key="name">Gaudron, N.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Gaudron</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gaudron</data>
+ </node>
+<node id="a65">
+  <data key="name">Gaver, W.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Gaver</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gaver</data>
+ </node>
+<node id="a66">
+  <data key="name">Ghoniem, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">8</data>
+  <data key="pub">8</data>
+  <data key="aliases">Ghoniem</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ghoniem</data>
+ </node>
+<node id="a67">
+  <data key="name">Gresse, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Gresse</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gresse</data>
+ </node>
+<node id="a68">
+  <data key="name">Gueddana, S.</data>
+  <data key="sipub">1</data>
+  <data key="copub">1</data>
+  <data key="pub">2</data>
+  <data key="aliases">Gueddana</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Gueddana</data>
+ </node>
+<node id="a69">
+  <data key="name">Guiard, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">15</data>
+  <data key="pub">15</data>
+  <data key="aliases">Guiard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Guiard</data>
+ </node>
+<node id="a70">
+  <data key="name">Hansen, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">10</data>
+  <data key="pub">10</data>
+  <data key="aliases">Hansen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hansen</data>
+ </node>
+<node id="a71">
+  <data key="name">Hap, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Hap</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hap</data>
+ </node>
+<node id="a72">
+  <data key="name">Harvard, Å.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Harvard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Harvard</data>
+ </node>
+<node id="a73">
+  <data key="name">Hascoët, M.</data>
+  <data key="sipub">10</data>
+  <data key="copub">7</data>
+  <data key="pub">17</data>
+  <data key="aliases">Hascoët Zizi Hascoët-Zizi</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hascoët OR Zizi OR Hascoët-Zizi</data>
+ </node>
+<node id="a74">
+  <data key="name">Henry, N.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Henry</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Henry</data>
+ </node>
+<node id="a75">
+  <data key="name">Hitz, O.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Hitz</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hitz</data>
+ </node>
+<node id="a76">
+  <data key="name">Holmquist, L. E.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Holmquist</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Holmquist</data>
+ </node>
+<node id="a77">
+  <data key="name">Huot, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Huot</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Huot</data>
+ </node>
+<node id="a78">
+  <data key="name">Hutchinson, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Hutchinson</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hutchinson</data>
+ </node>
+<node id="a79">
+  <data key="name">Hégron, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Hégron</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Hégron</data>
+ </node>
+<node id="a80">
+  <data key="name">Ingold, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Ingold</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ingold</data>
+ </node>
+<node id="a81">
+  <data key="name">Ishii, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Ishii</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ishii</data>
+ </node>
+<node id="a82">
+  <data key="name">Jain, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Jain</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jain</data>
+ </node>
+<node id="a83">
+  <data key="name">Jambon, F.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Jambon</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jambon</data>
+ </node>
+<node id="a84">
+  <data key="name">Janecek, P.</data>
+  <data key="sipub">1</data>
+  <data key="copub">4</data>
+  <data key="pub">5</data>
+  <data key="aliases">Janecek</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Janecek</data>
+ </node>
+<node id="a85">
+  <data key="name">Jensen, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Jensen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jensen</data>
+ </node>
+<node id="a86">
+  <data key="name">Jensen, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Jensen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jensen</data>
+ </node>
+<node id="a87">
+  <data key="name">Jestin, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Jestin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jestin</data>
+ </node>
+<node id="a88">
+  <data key="name">Jussien, N.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Jussien</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Jussien</data>
+ </node>
+<node id="a89">
+  <data key="name">Karsenty, A.</data>
+  <data key="sipub">3</data>
+  <data key="copub">8</data>
+  <data key="pub">11</data>
+  <data key="aliases">Karsenty</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Karsenty</data>
+ </node>
+<node id="a90">
+  <data key="name">Karsenty, S.</data>
+  <data key="sipub">1</data>
+  <data key="copub">5</data>
+  <data key="pub">6</data>
+  <data key="aliases">Karsenty</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Karsenty</data>
+ </node>
+<node id="a91">
+  <data key="name">Korfhage, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Korfhage</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Korfhage</data>
+ </node>
+<node id="a92">
+  <data key="name">Kurtenbach, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Kurtenbach</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Kurtenbach</data>
+ </node>
+<node id="a93">
+  <data key="name">Labrune, J-B.</data>
+  <data key="sipub">1</data>
+  <data key="copub">3</data>
+  <data key="pub">4</data>
+  <data key="aliases">Labrune</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Labrune</data>
+ </node>
+<node id="a94">
+  <data key="name">Lacomme, L.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Lacomme</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lacomme</data>
+ </node>
+<node id="a95">
+  <data key="name">Langet, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Langet</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Langet</data>
+ </node>
+<node id="a96">
+  <data key="name">Lassen, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Lassen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lassen</data>
+ </node>
+<node id="a97">
+  <data key="name">Lee, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Lee</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lee</data>
+ </node>
+<node id="a98">
+  <data key="name">Lee, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Lee</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lee</data>
+ </node>
+<node id="a99">
+  <data key="name">Letondal, C.</data>
+  <data key="sipub">4</data>
+  <data key="copub">3</data>
+  <data key="pub">7</data>
+  <data key="aliases">Letondal</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Letondal</data>
+ </node>
+<node id="a100">
+  <data key="name">Lindquist, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">5</data>
+  <data key="pub">5</data>
+  <data key="aliases">Lindquist</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lindquist</data>
+ </node>
+<node id="a101">
+  <data key="name">Lissek, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Lissek</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lissek</data>
+ </node>
+<node id="a102">
+  <data key="name">Lund, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Lund</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Lund</data>
+ </node>
+<node id="a103">
+  <data key="name">Mackay, W.</data>
+  <data key="sipub">7</data>
+  <data key="copub">29</data>
+  <data key="pub">36</data>
+  <data key="aliases">Mackay Mackay MacKay</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Mackay OR Mackay OR MacKay</data>
+ </node>
+<node id="a104">
+  <data key="name">Martin, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Martin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Martin</data>
+ </node>
+<node id="a105">
+  <data key="name">Martin, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Martin</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Martin</data>
+ </node>
+<node id="a106">
+  <data key="name">Masson, N.</data>
+  <data key="sipub">1</data>
+  <data key="copub">1</data>
+  <data key="pub">2</data>
+  <data key="aliases">Masson</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Masson</data>
+ </node>
+<node id="a107">
+  <data key="name">May, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">May</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=May</data>
+ </node>
+<node id="a108">
+  <data key="name">Mortensen, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Mortensen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Mortensen</data>
+ </node>
+<node id="a109">
+  <data key="name">Mottet, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Mottet</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Mottet</data>
+ </node>
+<node id="a110">
+  <data key="name">Munck, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Munck</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Munck</data>
+ </node>
+<node id="a111">
+  <data key="name">Nars, E.</data>
+  <data key="sipub">6</data>
+  <data key="copub">0</data>
+  <data key="pub">6</data>
+  <data key="aliases">Nars</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Nars</data>
+ </node>
+<node id="a112">
+  <data key="name">Nouvel, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Nouvel</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Nouvel</data>
+ </node>
+<node id="a113">
+  <data key="name">Pasveer, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Pasveer</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Pasveer</data>
+ </node>
+<node id="a114">
+  <data key="name">Paternò, F.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Paternò</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Paternò</data>
+ </node>
+<node id="a115">
+  <data key="name">Pediotakis, N.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Pediotakis</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Pediotakis</data>
+ </node>
+<node id="a116">
+  <data key="name">Phillips, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Phillips</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Phillips</data>
+ </node>
+<node id="a117">
+  <data key="name">Pier, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Pier</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Pier</data>
+ </node>
+<node id="a118">
+  <data key="name">Pietriga, E.</data>
+  <data key="sipub">1</data>
+  <data key="copub">2</data>
+  <data key="pub">3</data>
+  <data key="aliases">Pietriga</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Pietriga</data>
+ </node>
+<node id="a119">
+  <data key="name">Plaisant, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">9</data>
+  <data key="pub">9</data>
+  <data key="aliases">Plaisant</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Plaisant</data>
+ </node>
+<node id="a120">
+  <data key="name">Pothier, G.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Pothier</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Pothier</data>
+ </node>
+<node id="a121">
+  <data key="name">Rao, R.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Rao</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Rao</data>
+ </node>
+<node id="a122">
+  <data key="name">Ratzer, A.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Ratzer</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ratzer</data>
+ </node>
+<node id="a123">
+  <data key="name">Ravn, K.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Ravn</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ravn</data>
+ </node>
+<node id="a124">
+  <data key="name">Reiser, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Reiser</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Reiser</data>
+ </node>
+<node id="a125">
+  <data key="name">Riche, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Riche</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Riche</data>
+ </node>
+<node id="a126">
+  <data key="name">Richy, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Richy</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Richy</data>
+ </node>
+<node id="a127">
+  <data key="name">Rodden, T.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Rodden</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Rodden</data>
+ </node>
+<node id="a128">
+  <data key="name">Rogers, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Rogers</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Rogers</data>
+ </node>
+<node id="a129">
+  <data key="name">Roussel, N.</data>
+  <data key="sipub">21</data>
+  <data key="copub">23</data>
+  <data key="pub">44</data>
+  <data key="aliases">Roussel</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Roussel</data>
+ </node>
+<node id="a130">
+  <data key="name">Sakauchi, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Sakauchi</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Sakauchi</data>
+ </node>
+<node id="a131">
+  <data key="name">Shah, M. A.</data>
+  <data key="sipub">1</data>
+  <data key="copub">0</data>
+  <data key="pub">1</data>
+  <data key="aliases">Shah</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Shah</data>
+ </node>
+<node id="a132">
+  <data key="name">Sims Parr, C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Sims Parr</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Sims Parr</data>
+ </node>
+<node id="a133">
+  <data key="name">Soinard, X.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Soinard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Soinard</data>
+ </node>
+<node id="a134">
+  <data key="name">Stone, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Stone</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Stone</data>
+ </node>
+<node id="a135">
+  <data key="name">Stuerzlinger, W.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Stuerzlinger</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Stuerzlinger</data>
+ </node>
+<node id="a136">
+  <data key="name">Sundblad, Y.</data>
+  <data key="sipub">0</data>
+  <data key="copub">4</data>
+  <data key="pub">4</data>
+  <data key="aliases">Sundblad</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Sundblad</data>
+ </node>
+<node id="a137">
+  <data key="name">Sørensen, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Sørensen</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Sørensen</data>
+ </node>
+<node id="a138">
+  <data key="name">Tabard, A.</data>
+  <data key="sipub">1</data>
+  <data key="copub">1</data>
+  <data key="pub">2</data>
+  <data key="aliases">Tabard</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Tabard</data>
+ </node>
+<node id="a139">
+  <data key="name">Taillefer, F.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Taillefer</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Taillefer</data>
+ </node>
+<node id="a140">
+  <data key="name">Teil, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">3</data>
+  <data key="pub">3</data>
+  <data key="aliases">Teil</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Teil</data>
+ </node>
+<node id="a141">
+  <data key="name">Terrenghi, L.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Terrenghi</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Terrenghi</data>
+ </node>
+<node id="a142">
+  <data key="name">Thiellement, M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Thiellement</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Thiellement</data>
+ </node>
+<node id="a143">
+  <data key="name">Thomas, J.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Thomas</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Thomas</data>
+ </node>
+<node id="a144">
+  <data key="name">Torres, J-C.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Torres</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Torres</data>
+ </node>
+<node id="a145">
+  <data key="name">Towles, H.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Towles</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Towles</data>
+ </node>
+<node id="a146">
+  <data key="name">Tronche, C.</data>
+  <data key="sipub">5</data>
+  <data key="copub">2</data>
+  <data key="pub">7</data>
+  <data key="aliases">Tronche</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Tronche</data>
+ </node>
+<node id="a147">
+  <data key="name">Ullmer, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Ullmer</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Ullmer</data>
+ </node>
+<node id="a148">
+  <data key="name">Van Thong, J-M.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Van Thong</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Van Thong</data>
+ </node>
+<node id="a149">
+  <data key="name">Wang, D.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Wang</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Wang</data>
+ </node>
+<node id="a150">
+  <data key="name">Westerlund, B.</data>
+  <data key="sipub">0</data>
+  <data key="copub">5</data>
+  <data key="pub">5</data>
+  <data key="aliases">Westerlund</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Westerlund</data>
+ </node>
+<node id="a151">
+  <data key="name">Zhai, S.</data>
+  <data key="sipub">0</data>
+  <data key="copub">2</data>
+  <data key="pub">2</data>
+  <data key="aliases">Zhai</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Zhai</data>
+ </node>
+<node id="a152">
+  <data key="name">Zhao, Y. P.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Zhao</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Zhao</data>
+ </node>
+<node id="a153">
+  <data key="name">Zuckerman, O.</data>
+  <data key="sipub">0</data>
+  <data key="copub">1</data>
+  <data key="pub">1</data>
+  <data key="aliases">Zuckerman</data>
+   <data key="url">http://insitu.lri.fr/insitu/publications.en.html?s=insitu&amp;g=date&amp;q=Zuckerman</data>
+ </node>
+
+<edge id="e1" source="a30" target="a69">
+  <data key="count">4</data>
+  <data key="keys">guiard-etall-beliv06 perspective-AVI06 perspective-HCI06 perspective-interne</data>
+ </edge>
+<edge id="e1" source="a102" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a24" target="a41">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a10">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a12" target="a56">
+  <data key="count">1</data>
+  <data key="keys">doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a99" target="a137">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a56" target="a61">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a78" target="a100">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a99" target="a103">
+  <data key="count">2</data>
+  <data key="keys">abook-uist02 partprog-pdc2004</data>
+ </edge>
+<edge id="e1" source="a51" target="a71">
+  <data key="count">1</data>
+  <data key="keys">genese</data>
+ </edge>
+<edge id="e1" source="a21" target="a105">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a47" target="a79">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a8" target="a142">
+  <data key="count">2</data>
+  <data key="keys">mbl-sigchibulletin-91 mbl-avis-90</data>
+ </edge>
+<edge id="e1" source="a64" target="a100">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a84" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a129" target="a138">
+  <data key="count">1</data>
+  <data key="keys">allYouNeedIsLog</data>
+ </edge>
+<edge id="e1" source="a2" target="a96">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a18" target="a69">
+  <data key="count">3</data>
+  <data key="keys">beyond10bits-IHMHCI01 fitts-CNRSinfo bourgeois-CHI01</data>
+ </edge>
+<edge id="e1" source="a56" target="a62">
+  <data key="count">1</data>
+  <data key="keys">fekete94</data>
+ </edge>
+<edge id="e1" source="a33" target="a96">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a72" target="a78">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a16" target="a139">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a54" target="a70">
+  <data key="count">10</data>
+  <data key="keys">videoProbe-IHM03 Roussel-IEEE-Multimedia-MirrorSpace disap-thread interliving-1.3-2.3 interLiving-CHI-probes mirrorSpace-MM03 mirrorSpace-IHM03 mirrorSpace-pervasive04 more-about-mirrorSpace interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a30">
+  <data key="count">4</data>
+  <data key="keys">guiard-etall-beliv06 perspective-AVI06 perspective-HCI06 perspective-interne</data>
+ </edge>
+<edge id="e1" source="a85" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a70" target="a129">
+  <data key="count">9</data>
+  <data key="keys">videoProbe-IHM03 Roussel-IEEE-Multimedia-MirrorSpace interliving-1.3-2.3 interLiving-CHI-probes mirrorSpace-MM03 mirrorSpace-IHM03 mirrorSpace-pervasive04 more-about-mirrorSpace interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a7" target="a141">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a8" target="a32">
+  <data key="count">5</data>
+  <data key="keys">doc-xtv-91 doc-utilsplus-90 mbl-xwindow-90 mbl-ihm-90 sc-chi-92</data>
+ </edge>
+<edge id="e1" source="a59" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a70" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a82" target="a124">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a54" target="a129">
+  <data key="count">9</data>
+  <data key="keys">videoProbe-IHM03 Roussel-IEEE-Multimedia-MirrorSpace interliving-1.3-2.3 interLiving-CHI-probes mirrorSpace-MM03 mirrorSpace-IHM03 mirrorSpace-pervasive04 more-about-mirrorSpace interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a96">
+  <data key="count">4</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01 cpn2000-UIST00</data>
+ </edge>
+<edge id="e1" source="a21" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a84" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a12">
+  <data key="count">4</data>
+  <data key="keys">doc-xtv-91 doc-utilsplus-90 mbl-xwindow-90 mbl-ihm-90</data>
+ </edge>
+<edge id="e1" source="a103" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a8" target="a19">
+  <data key="count">1</data>
+  <data key="keys">intbaudel92</data>
+ </edge>
+<edge id="e1" source="a59" target="a128">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a10" target="a150">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a76" target="a127">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a2" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a37" target="a151">
+  <data key="count">1</data>
+  <data key="keys">targetExp-CHI2003</data>
+ </edge>
+<edge id="e1" source="a17" target="a87">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a85" target="a96">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a35" target="a73">
+  <data key="count">1</data>
+  <data key="keys">i3-dnd</data>
+ </edge>
+<edge id="e1" source="a3" target="a126">
+  <data key="count">2</data>
+  <data key="keys">fekete95a fekete95c</data>
+ </edge>
+<edge id="e1" source="a48" target="a78">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a37">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a54" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a144">
+  <data key="count">1</data>
+  <data key="keys">npr-eurographics2002</data>
+ </edge>
+<edge id="e1" source="a76" target="a103">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a14" target="a107">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a56" target="a74">
+  <data key="count">4</data>
+  <data key="keys">henry-beliv06 Henry:2006:TMV plaisant-lee-parr-fekete-henry-beliv06 henry-ihm06</data>
+ </edge>
+<edge id="e1" source="a37" target="a103">
+  <data key="count">5</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes videoProbe-interne interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a37" target="a87">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a56" target="a104">
+  <data key="count">1</data>
+  <data key="keys">npr-eurographics2002</data>
+ </edge>
+<edge id="e1" source="a46" target="a56">
+  <data key="count">1</data>
+  <data key="keys">cskim</data>
+ </edge>
+<edge id="e1" source="a94" target="a136">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a99" target="a129">
+  <data key="count">1</data>
+  <data key="keys">allYouNeedIsLog</data>
+ </edge>
+<edge id="e1" source="a8" target="a90">
+  <data key="count">4</data>
+  <data key="keys">mbl-debugging-87 mbl-hicss-88 mbl-euug-87 mbl-sigsmall-88</data>
+ </edge>
+<edge id="e1" source="a44" target="a56">
+  <data key="count">1</data>
+  <data key="keys">fekete-curvedlinks2003</data>
+ </edge>
+<edge id="e1" source="a107" target="a114">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a52" target="a150">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a124" target="a130">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a56" target="a71">
+  <data key="count">1</data>
+  <data key="keys">genese</data>
+ </edge>
+<edge id="e1" source="a22" target="a38">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a37" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a107" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a8" target="a113">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a48" target="a100">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a77">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a84" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a76" target="a128">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a33" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a116" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Facades-UIST06</data>
+ </edge>
+<edge id="e1" source="a58" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a82" target="a129">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a100" target="a103">
+  <data key="count">5</data>
+  <data key="keys">interliving-1.3-2.3 codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a93" target="a103">
+  <data key="count">3</data>
+  <data key="keys">telebeads tangicam05 wem-comm-app05</data>
+ </edge>
+<edge id="e1" source="a48" target="a70">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a74" target="a97">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a24" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a43" target="a103">
+  <data key="count">1</data>
+  <data key="keys">disap-thread</data>
+ </edge>
+<edge id="e1" source="a78" target="a103">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a30" target="a116">
+  <data key="count">1</data>
+  <data key="keys">Facades-UIST06</data>
+ </edge>
+<edge id="e1" source="a21" target="a63">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a103" target="a114">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a78" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a38" target="a45">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a103" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a52">
+  <data key="count">5</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-2.1 interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a52" target="a54">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a84">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a37" target="a100">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a50" target="a79">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a10" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a81" target="a103">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a61" target="a139">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a33" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a78">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a85" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a85" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a84" target="a96">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a14" target="a114">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a13" target="a38">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a6" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a59" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a85" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a37" target="a72">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a96" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a33" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a4" target="a103">
+  <data key="count">1</data>
+  <data key="keys">appert-HCI04</data>
+ </edge>
+<edge id="e1" source="a84" target="a85">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a67">
+  <data key="count">1</data>
+  <data key="keys">mbl-tsi-84</data>
+ </edge>
+<edge id="e1" source="a69" target="a113">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a103" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a41" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a119" target="a121">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a73" target="a121">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a129" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a41" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a86" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a34" target="a118">
+  <data key="count">1</data>
+  <data key="keys">xpr06</data>
+ </edge>
+<edge id="e1" source="a4" target="a30">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a56" target="a148">
+  <data key="count">1</data>
+  <data key="keys">fekete94</data>
+ </edge>
+<edge id="e1" source="a40" target="a56">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a17" target="a63">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a81" target="a128">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a10" target="a37">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a77" target="a79">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a52" target="a72">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a30" target="a129">
+  <data key="count">4</data>
+  <data key="keys">Metisse-IHM05 uiFacade Facades-UIST06 Metisse-UIST05</data>
+ </edge>
+<edge id="e1" source="a86" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a103" target="a136">
+  <data key="count">4</data>
+  <data key="keys">codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a103" target="a107">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a86" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a141" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a91" target="a119">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a70" target="a119">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a72" target="a103">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a124" target="a145">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a32" target="a56">
+  <data key="count">1</data>
+  <data key="keys">doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a6" target="a45">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a4" target="a8">
+  <data key="count">3</data>
+  <data key="keys">guiard-etall-beliv06 appert-HCI04 appert-ihm06</data>
+ </edge>
+<edge id="e1" source="a102" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a11" target="a41">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a54" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a119" target="a149">
+  <data key="count">1</data>
+  <data key="keys">fekete-curvedlinks2003</data>
+ </edge>
+<edge id="e1" source="a83" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a89">
+  <data key="count">8</data>
+  <data key="keys">ak-cscw-92 ak-slice-95 mbl-uist-92 ak-icdcs-93 ak-montpellier-93 ak-usenix-93 ak-ihm-91 mbl-sigoisbulletin-92</data>
+ </edge>
+<edge id="e1" source="a13" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a24" target="a32">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a100">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a25" target="a88">
+  <data key="count">1</data>
+  <data key="keys">fekete-softvis05</data>
+ </edge>
+<edge id="e1" source="a17" target="a26">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a58" target="a134">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a6" target="a152">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a8" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a52" target="a136">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a70" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a3" target="a56">
+  <data key="count">2</data>
+  <data key="keys">fekete95a fekete95c</data>
+ </edge>
+<edge id="e1" source="a103" target="a125">
+  <data key="count">2</data>
+  <data key="keys">peercare05 wem-comm-app05</data>
+ </edge>
+<edge id="e1" source="a103" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a122" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a52" target="a100">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a73" target="a115">
+  <data key="count">1</data>
+  <data key="keys">dl96</data>
+ </edge>
+<edge id="e1" source="a8" target="a85">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a13" target="a58">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a1" target="a119">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a7" target="a114">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a6" target="a13">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a103" target="a137">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a37" target="a129">
+  <data key="count">6</data>
+  <data key="keys">videoProbe-IHM03 event98 interliving-1.3-2.3 interLiving-CHI-probes videoProbe-interne interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a11" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a54" target="a64">
+  <data key="count">2</data>
+  <data key="keys">disap-thread interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a52" target="a70">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a4" target="a56">
+  <data key="count">2</data>
+  <data key="keys">guiard-etall-beliv06 orthozoom-CHI06</data>
+ </edge>
+<edge id="e1" source="a54" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a8">
+  <data key="count">4</data>
+  <data key="keys">indigo intbaudel92 tb-cacm-93 doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a70" target="a72">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a94" target="a100">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a119" target="a129">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a36" target="a51">
+  <data key="count">1</data>
+  <data key="keys">cskim</data>
+ </edge>
+<edge id="e1" source="a55" target="a103">
+  <data key="count">1</data>
+  <data key="keys">triangulating-DIS97</data>
+ </edge>
+<edge id="e1" source="a13" target="a22">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a7" target="a107">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a33" target="a84">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a94" target="a119">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a39" target="a103">
+  <data key="count">1</data>
+  <data key="keys">anoto-IHM03</data>
+ </edge>
+<edge id="e1" source="a8" target="a73">
+  <data key="count">3</data>
+  <data key="keys">mhz-ijhcs-95 mhz-echt-94 infoVis-RI3</data>
+ </edge>
+<edge id="e1" source="a52" target="a129">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a36" target="a56">
+  <data key="count">1</data>
+  <data key="keys">cskim</data>
+ </edge>
+<edge id="e1" source="a69" target="a151">
+  <data key="count">2</data>
+  <data key="keys">targetExp-CHI2003 viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a85" target="a86">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a100" target="a129">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Micromegas-IHM05</data>
+ </edge>
+<edge id="e1" source="a103" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a108" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a30" target="a135">
+  <data key="count">2</data>
+  <data key="keys">uiFacade Facades-UIST06</data>
+ </edge>
+<edge id="e1" source="a49" target="a69">
+  <data key="count">4</data>
+  <data key="keys">guiard-etall-beliv06 perspective-AVI06 perspective-HCI06 perspective-interne</data>
+ </edge>
+<edge id="e1" source="a97" target="a132">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a72" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a2" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a1" target="a73">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a6" target="a92">
+  <data key="count">1</data>
+  <data key="keys">kurtenbach92</data>
+ </edge>
+<edge id="e1" source="a8" target="a9">
+  <data key="count">2</data>
+  <data key="keys">beaudoux-opendpi-iceis05 beaudoux-dpi-ihm01</data>
+ </edge>
+<edge id="e1" source="a99" target="a138">
+  <data key="count">1</data>
+  <data key="keys">allYouNeedIsLog</data>
+ </edge>
+<edge id="e1" source="a1" target="a121">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a85" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a96" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a63" target="a105">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a6" target="a83">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a29" target="a91">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a6" target="a140">
+  <data key="count">3</data>
+  <data key="keys">intbaudel92 braffort92 thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a20">
+  <data key="count">1</data>
+  <data key="keys">pb-hci-95</data>
+ </edge>
+<edge id="e1" source="a8" target="a56">
+  <data key="count">3</data>
+  <data key="keys">jdf-uist-96 guiard-etall-beliv06 doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a42" target="a56">
+  <data key="count">2</data>
+  <data key="keys">fekete-philology-04 fekete-cifed04</data>
+ </edge>
+<edge id="e1" source="a8" target="a27">
+  <data key="count">1</data>
+  <data key="keys">casalta-mbl99</data>
+ </edge>
+<edge id="e1" source="a48" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a11" target="a24">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a103" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a30" target="a56">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a70" target="a103">
+  <data key="count">5</data>
+  <data key="keys">videoProbe-IHM03 disap-thread interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a43" target="a54">
+  <data key="count">1</data>
+  <data key="keys">disap-thread</data>
+ </edge>
+<edge id="e1" source="a103" target="a150">
+  <data key="count">5</data>
+  <data key="keys">interliving-1.3-2.3 codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a93" target="a125">
+  <data key="count">1</data>
+  <data key="keys">wem-comm-app05</data>
+ </edge>
+<edge id="e1" source="a78" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a33" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a136">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a37" target="a64">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a56" target="a139">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a52" target="a103">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a14" target="a103">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a8" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a17" target="a35">
+  <data key="count">1</data>
+  <data key="keys">i3-dnd</data>
+ </edge>
+<edge id="e1" source="a47" target="a77">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a8" target="a18">
+  <data key="count">3</data>
+  <data key="keys">beyond10bits-IHMHCI01 fitts-CNRSinfo bourgeois-CHI01</data>
+ </edge>
+<edge id="e1" source="a22" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a59" target="a127">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a38" target="a134">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a43" target="a70">
+  <data key="count">1</data>
+  <data key="keys">disap-thread</data>
+ </edge>
+<edge id="e1" source="a34" target="a60">
+  <data key="count">1</data>
+  <data key="keys">xpr06</data>
+ </edge>
+<edge id="e1" source="a102" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a100" target="a150">
+  <data key="count">5</data>
+  <data key="keys">interliving-1.3-2.3 codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a41">
+  <data key="count">1</data>
+  <data key="keys">mbl-scoop-95</data>
+ </edge>
+<edge id="e1" source="a59" target="a76">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a44" target="a119">
+  <data key="count">1</data>
+  <data key="keys">fekete-curvedlinks2003</data>
+ </edge>
+<edge id="e1" source="a103" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a7" target="a103">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a22" target="a45">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a119" target="a150">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a116" target="a135">
+  <data key="count">1</data>
+  <data key="keys">Facades-UIST06</data>
+ </edge>
+<edge id="e1" source="a19" target="a140">
+  <data key="count">2</data>
+  <data key="keys">intbaudel92 braffort92</data>
+ </edge>
+<edge id="e1" source="a16" target="a40">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a48" target="a72">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a19">
+  <data key="count">4</data>
+  <data key="keys">intbaudel92 braffort92 thomas93b baudel92</data>
+ </edge>
+<edge id="e1" source="a56" target="a66">
+  <data key="count">8</data>
+  <data key="keys">fekete-ghoniem-iv04 ihm-matrices2002 fekete-ghnoiem-jussien-flairs04 ghoniem-ihm2003 fekete-ivj05 fekete-softvis05 fekete-ghoniem-ihm04 ghoniem-uics2003</data>
+ </edge>
+<edge id="e1" source="a103" target="a120">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a11" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a26" target="a57">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a32" target="a41">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a1" target="a29">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a62" target="a148">
+  <data key="count">1</data>
+  <data key="keys">fekete94</data>
+ </edge>
+<edge id="e1" source="a10" target="a48">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a27" target="a69">
+  <data key="count">1</data>
+  <data key="keys">casalta-mbl99</data>
+ </edge>
+<edge id="e1" source="a2" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a64" target="a150">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a86" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a48" target="a129">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a103">
+  <data key="count">15</data>
+  <data key="keys">cpn-CHI01 videoProbe-IHM03 prototyping-handbook cpn2000-ETAPS01 appert-HCI04 cpn2000-ICATPN01 sitComp-CHI00 wem-soups05 interliving-1.3-2.3 interLiving-CHI-probes principles-AVI00 videoProbe-interne interliving-1.1 mackay98 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a29" target="a119">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a8" target="a109">
+  <data key="count">2</data>
+  <data key="keys">guiard-mbl99 beyond10bits-IHMHCI01</data>
+ </edge>
+<edge id="e1" source="a33" target="a86">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a119" target="a136">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a37">
+  <data key="count">10</data>
+  <data key="keys">videoProbe-IHM03 targetExp-CHI2003 interliving-1.3-2.3 mbl-chi-96 interLiving-CHI-probes indigo interliving-2.1 videoProbe-interne interliving-1.2-2.2 sc-ofta-96</data>
+ </edge>
+<edge id="e1" source="a76" target="a81">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a96" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a84" target="a129">
+  <data key="count">1</data>
+  <data key="keys">event98</data>
+ </edge>
+<edge id="e1" source="a40" target="a139">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a100" target="a119">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a105" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a56" target="a97">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a81" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a73" target="a91">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a99" target="a120">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a37" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a76" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a16" target="a56">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a78" target="a119">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a70" target="a78">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a65">
+  <data key="count">1</data>
+  <data key="keys">mbl-uist-94</data>
+ </edge>
+<edge id="e1" source="a6" target="a17">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a147" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a7" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a107" target="a141">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a8" target="a150">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a66" target="a88">
+  <data key="count">3</data>
+  <data key="keys">fekete-ghnoiem-jussien-flairs04 fekete-softvis05 ghoniem-uics2003</data>
+ </edge>
+<edge id="e1" source="a32" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a120" target="a137">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a10" target="a54">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a113" target="a151">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a8" target="a54">
+  <data key="count">4</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a128" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a33" target="a85">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a85" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a38" target="a58">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a37" target="a48">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a101" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a2" target="a8">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a26" target="a63">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a56" target="a119">
+  <data key="count">4</data>
+  <data key="keys">fekete-plaisant-ihm04 fekete-curvedlinks2003 millionvis-InfoVis2002 plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a96" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a129" target="a135">
+  <data key="count">2</data>
+  <data key="keys">uiFacade Facades-UIST06</data>
+ </edge>
+<edge id="e1" source="a8" target="a105">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a8" target="a146">
+  <data key="count">2</data>
+  <data key="keys">ak-montpellier-93 ak-usenix-93</data>
+ </edge>
+<edge id="e1" source="a80" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-ICDAR01</data>
+ </edge>
+<edge id="e1" source="a21" target="a101">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a18" target="a109">
+  <data key="count">1</data>
+  <data key="keys">beyond10bits-IHMHCI01</data>
+ </edge>
+<edge id="e1" source="a22" target="a134">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a10" target="a100">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a4" target="a49">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a13" target="a134">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a14" target="a141">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a37" target="a136">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a75" target="a80">
+  <data key="count">1</data>
+  <data key="keys">Roussel-ICDAR01</data>
+ </edge>
+<edge id="e1" source="a78" target="a129">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a37" target="a70">
+  <data key="count">4</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a69" target="a109">
+  <data key="count">2</data>
+  <data key="keys">guiard-mbl99 beyond10bits-IHMHCI01</data>
+ </edge>
+<edge id="e1" source="a136" target="a150">
+  <data key="count">4</data>
+  <data key="keys">codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a37" target="a78">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a95">
+  <data key="count">1</data>
+  <data key="keys">Micromegas-IHM05</data>
+ </edge>
+<edge id="e1" source="a2" target="a33">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a37" target="a152">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a129" target="a130">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a59" target="a81">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a37" target="a84">
+  <data key="count">1</data>
+  <data key="keys">event98</data>
+ </edge>
+<edge id="e1" source="a6" target="a38">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a48" target="a136">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a63" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a6" target="a31">
+  <data key="count">1</data>
+  <data key="keys">baudel92</data>
+ </edge>
+<edge id="e1" source="a54" target="a100">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a52" target="a64">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a17" target="a37">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a84" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a124" target="a129">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a54" target="a72">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a81" target="a127">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a8" target="a33">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a110" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a83" target="a90">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a53" target="a103">
+  <data key="count">1</data>
+  <data key="keys">visionselection</data>
+ </edge>
+<edge id="e1" source="a17" target="a69">
+  <data key="count">2</data>
+  <data key="keys">guiard-objectPointing blanch-semanticPointing</data>
+ </edge>
+<edge id="e1" source="a8" target="a119">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a64" target="a129">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a10" target="a119">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a86" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a101" target="a105">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a10" target="a78">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a152">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a10" target="a103">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a87">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a72" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a129" target="a145">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a96" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a50" target="a77">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a72" target="a150">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a15" target="a118">
+  <data key="count">1</data>
+  <data key="keys">fresnel05</data>
+ </edge>
+<edge id="e1" source="a102" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a33" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a1" target="a91">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a72" target="a100">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a95" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Micromegas-IHM05</data>
+ </edge>
+<edge id="e1" source="a48" target="a54">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a2" target="a84">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a12" target="a32">
+  <data key="count">4</data>
+  <data key="keys">doc-xtv-91 doc-utilsplus-90 mbl-xwindow-90 mbl-ihm-90</data>
+ </edge>
+<edge id="e1" source="a70" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a41" target="a83">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a82" target="a130">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a8" target="a49">
+  <data key="count">4</data>
+  <data key="keys">guiard-etall-beliv06 perspective-AVI06 perspective-HCI06 perspective-interne</data>
+ </edge>
+<edge id="e1" source="a86" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a56" target="a149">
+  <data key="count">1</data>
+  <data key="keys">fekete-curvedlinks2003</data>
+ </edge>
+<edge id="e1" source="a81" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a20" target="a83">
+  <data key="count">1</data>
+  <data key="keys">brun-ihm97</data>
+ </edge>
+<edge id="e1" source="a2" target="a102">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a73" target="a133">
+  <data key="count">1</data>
+  <data key="keys">HS98</data>
+ </edge>
+<edge id="e1" source="a50" target="a56">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a8" target="a151">
+  <data key="count">2</data>
+  <data key="keys">targetExp-CHI2003 viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a10" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a68" target="a129">
+  <data key="count">1</data>
+  <data key="keys">pelemele-cscw</data>
+ </edge>
+<edge id="e1" source="a90" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a45" target="a134">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a10" target="a129">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a79">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a64" target="a119">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a8" target="a129">
+  <data key="count">7</data>
+  <data key="keys">videoProbe-IHM03 videoSpace interliving-1.3-2.3 interLiving-CHI-probes videoProbe-interne Roussel-brevet-puits interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a45" target="a58">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a24" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a129" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a10" target="a72">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a10" target="a52">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a28" target="a66">
+  <data key="count">2</data>
+  <data key="keys">fekete-ghoniem-iv04 fekete-ivj05</data>
+ </edge>
+<edge id="e1" source="a37" target="a54">
+  <data key="count">4</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a69">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a38" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a103" target="a141">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a5" target="a8">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a45" target="a117">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a84" target="a86">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a76" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a130" target="a145">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a6" target="a12">
+  <data key="count">1</data>
+  <data key="keys">doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a47" target="a50">
+  <data key="count">1</data>
+  <data key="keys">fekete-uist04</data>
+ </edge>
+<edge id="e1" source="a2" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a44" target="a149">
+  <data key="count">1</data>
+  <data key="keys">fekete-curvedlinks2003</data>
+ </edge>
+<edge id="e1" source="a49" target="a56">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a6" target="a87">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a47" target="a56">
+  <data key="count">3</data>
+  <data key="keys">dragicevic-icmi04 fekete-uist04 fekete-avi04</data>
+ </edge>
+<edge id="e1" source="a78" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a59" target="a103">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a112" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-ihm99</data>
+ </edge>
+<edge id="e1" source="a73" target="a119">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a10" target="a70">
+  <data key="count">2</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a40">
+  <data key="count">2</data>
+  <data key="keys">mbl-alien-90 ec-eurographics-95</data>
+ </edge>
+<edge id="e1" source="a32" target="a83">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a23" target="a103">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a54" target="a78">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a100" target="a136">
+  <data key="count">4</data>
+  <data key="keys">codesign-ead03 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a30" target="a49">
+  <data key="count">4</data>
+  <data key="keys">guiard-etall-beliv06 perspective-AVI06 perspective-HCI06 perspective-interne</data>
+ </edge>
+<edge id="e1" source="a5" target="a151">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a89" target="a146">
+  <data key="count">2</data>
+  <data key="keys">ak-montpellier-93 ak-usenix-93</data>
+ </edge>
+<edge id="e1" source="a104" target="a144">
+  <data key="count">1</data>
+  <data key="keys">npr-eurographics2002</data>
+ </edge>
+<edge id="e1" source="a52" target="a94">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a56">
+  <data key="count">1</data>
+  <data key="keys">doc-xtv-91</data>
+ </edge>
+<edge id="e1" source="a7" target="a14">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a23" target="a99">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a103" target="a128">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a52" target="a119">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a33" target="a103">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a69">
+  <data key="count">15</data>
+  <data key="keys">guiard-etall-beliv06 targetExp-CHI2003 guiard-mbl99 perspective-AVI06 perspective-HCI06 multiscale-IJHCS casalta-mbl99 guiard-objectPointing beyond10bits-IHMHCI01 perspective-interne fitts-CNRSinfo blanch-semanticPointing EspaceEtEchelleDuMouvement viewSize-AVI04 bourgeois-CHI01</data>
+ </edge>
+<edge id="e1" source="a94" target="a129">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a140">
+  <data key="count">1</data>
+  <data key="keys">intbaudel92</data>
+ </edge>
+<edge id="e1" source="a17" target="a152">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a48" target="a103">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a94" target="a150">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a56" target="a88">
+  <data key="count">3</data>
+  <data key="keys">fekete-ghnoiem-jussien-flairs04 fekete-softvis05 ghoniem-uics2003</data>
+ </edge>
+<edge id="e1" source="a8" target="a63">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a16" target="a61">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a48" target="a150">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a103" target="a106">
+  <data key="count">1</data>
+  <data key="keys">masson-ihm06</data>
+ </edge>
+<edge id="e1" source="a127" target="a128">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a72" target="a129">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a114" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a56" target="a126">
+  <data key="count">2</data>
+  <data key="keys">fekete95a fekete95c</data>
+ </edge>
+<edge id="e1" source="a32" target="a140">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a117" target="a134">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a64" target="a103">
+  <data key="count">2</data>
+  <data key="keys">disap-thread interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a6" target="a58">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a51" target="a56">
+  <data key="count">2</data>
+  <data key="keys">genese cskim</data>
+ </edge>
+<edge id="e1" source="a127" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a64" target="a70">
+  <data key="count">2</data>
+  <data key="keys">disap-thread interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a56" target="a132">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a6" target="a41">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a2" target="a85">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a29" target="a121">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a37" target="a52">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a37" target="a119">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a11" target="a32">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a87" target="a152">
+  <data key="count">1</data>
+  <data key="keys">indigo</data>
+ </edge>
+<edge id="e1" source="a127" target="a147">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a6" target="a11">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a54" target="a119">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a22" target="a58">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a108" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a72" target="a119">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a94" target="a103">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a96" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a28" target="a56">
+  <data key="count">2</data>
+  <data key="keys">fekete-ghoniem-iv04 fekete-ivj05</data>
+ </edge>
+<edge id="e1" source="a128" target="a153">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a8" target="a64">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a13" target="a45">
+  <data key="count">1</data>
+  <data key="keys">Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a25" target="a56">
+  <data key="count">1</data>
+  <data key="keys">fekete-softvis05</data>
+ </edge>
+<edge id="e1" source="a8" target="a72">
+  <data key="count">2</data>
+  <data key="keys">interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a82" target="a145">
+  <data key="count">1</data>
+  <data key="keys">roussel-panel-ITP02</data>
+ </edge>
+<edge id="e1" source="a14" target="a143">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a17" target="a73">
+  <data key="count">1</data>
+  <data key="keys">i3-dnd</data>
+ </edge>
+<edge id="e1" source="a23" target="a137">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a4" target="a69">
+  <data key="count">1</data>
+  <data key="keys">guiard-etall-beliv06</data>
+ </edge>
+<edge id="e1" source="a108" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a5" target="a69">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a57" target="a63">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a19" target="a31">
+  <data key="count">1</data>
+  <data key="keys">baudel92</data>
+ </edge>
+<edge id="e1" source="a97" target="a119">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a110" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a60" target="a118">
+  <data key="count">1</data>
+  <data key="keys">xpr06</data>
+ </edge>
+<edge id="e1" source="a15" target="a98">
+  <data key="count">1</data>
+  <data key="keys">fresnel05</data>
+ </edge>
+<edge id="e1" source="a17" target="a57">
+  <data key="count">1</data>
+  <data key="keys">blanch-iMagis</data>
+ </edge>
+<edge id="e1" source="a48" target="a119">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a70">
+  <data key="count">4</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a29" target="a73">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a8" target="a101">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a84" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a8" target="a123">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a2" target="a86">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a6" target="a22">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a8" target="a108">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a103" target="a127">
+  <data key="count">1</data>
+  <data key="keys">chi06-tangible-panel</data>
+ </edge>
+<edge id="e1" source="a103" target="a119">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a40" target="a61">
+  <data key="count">1</data>
+  <data key="keys">fekete95b</data>
+ </edge>
+<edge id="e1" source="a48" target="a52">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a64" target="a78">
+  <data key="count">1</data>
+  <data key="keys">interliving-1.3-2.3</data>
+ </edge>
+<edge id="e1" source="a25" target="a66">
+  <data key="count">1</data>
+  <data key="keys">fekete-softvis05</data>
+ </edge>
+<edge id="e1" source="a46" target="a51">
+  <data key="count">1</data>
+  <data key="keys">cskim</data>
+ </edge>
+<edge id="e1" source="a24" target="a83">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a11" target="a83">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a5" target="a113">
+  <data key="count">1</data>
+  <data key="keys">viewSize-AVI04</data>
+ </edge>
+<edge id="e1" source="a43" target="a64">
+  <data key="count">1</data>
+  <data key="keys">disap-thread</data>
+ </edge>
+<edge id="e1" source="a52" target="a78">
+  <data key="count">4</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-2.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a8" target="a17">
+  <data key="count">4</data>
+  <data key="keys">guiard-objectPointing indigo hsmtk-avi06 blanch-semanticPointing</data>
+ </edge>
+<edge id="e1" source="a63" target="a101">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a119" target="a132">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a70" target="a100">
+  <data key="count">3</data>
+  <data key="keys">interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a54" target="a103">
+  <data key="count">5</data>
+  <data key="keys">videoProbe-IHM03 disap-thread interliving-1.3-2.3 interLiving-CHI-probes interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a6" target="a24">
+  <data key="count">1</data>
+  <data key="keys">thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a6" target="a32">
+  <data key="count">2</data>
+  <data key="keys">doc-xtv-91 thomas93c</data>
+ </edge>
+<edge id="e1" source="a8" target="a48">
+  <data key="count">3</data>
+  <data key="keys">interLiving-CHI-probes interliving-1.1 interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a84" target="a110">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a74" target="a132">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+<edge id="e1" source="a8" target="a21">
+  <data key="count">1</data>
+  <data key="keys">Roussel-brevet-puits</data>
+ </edge>
+<edge id="e1" source="a86" target="a96">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a6" target="a134">
+  <data key="count">2</data>
+  <data key="keys">thomas94a Bier-Stone-Fishkin-Pier-Baudel-Conway-Buxton-DeRose94</data>
+ </edge>
+<edge id="e1" source="a102" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a23" target="a120">
+  <data key="count">1</data>
+  <data key="keys">abook-uist02</data>
+ </edge>
+<edge id="e1" source="a114" target="a141">
+  <data key="count">1</data>
+  <data key="keys">chi06-multidisp-workshop</data>
+ </edge>
+<edge id="e1" source="a75" target="a129">
+  <data key="count">1</data>
+  <data key="keys">Roussel-ICDAR01</data>
+ </edge>
+<edge id="e1" source="a8" target="a86">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a37" target="a69">
+  <data key="count">1</data>
+  <data key="keys">targetExp-CHI2003</data>
+ </edge>
+<edge id="e1" source="a91" target="a121">
+  <data key="count">1</data>
+  <data key="keys">HAK96</data>
+ </edge>
+<edge id="e1" source="a36" target="a46">
+  <data key="count">1</data>
+  <data key="keys">cskim</data>
+ </edge>
+<edge id="e1" source="a98" target="a118">
+  <data key="count">1</data>
+  <data key="keys">fresnel05</data>
+ </edge>
+<edge id="e1" source="a2" target="a122">
+  <data key="count">3</data>
+  <data key="keys">cpn-CHI01 cpn2000-ETAPS01 cpn2000-ICATPN01</data>
+ </edge>
+<edge id="e1" source="a103" target="a129">
+  <data key="count">5</data>
+  <data key="keys">videoProbe-IHM03 interliving-1.3-2.3 interLiving-CHI-probes videoProbe-interne interliving-1.2-2.2</data>
+ </edge>
+<edge id="e1" source="a74" target="a119">
+  <data key="count">1</data>
+  <data key="keys">plaisant-lee-parr-fekete-henry-beliv06</data>
+ </edge>
+
+</graph>
+</graphml>

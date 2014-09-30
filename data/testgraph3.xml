@@ -1,0 +1,28 @@
+<graphml>
+    <graph edgedefault="undirected">
+        
+        <key id="name" for="node">String</key>
+        <!-- <key id="year" for="edge">Integer</key> -->
+        
+        <node id="A"><data key="name">A</data></node>
+        <node id="B"><data key="name">B</data></node>
+        <node id="C"><data key="name">C</data></node>
+        <node id="D"><data key="name">D</data></node>
+        <node id="E"><data key="name">E</data></node>
+        <node id="F"><data key="name">F</data></node>
+        <node id="G"><data key="name">G</data></node>
+        
+        <edge source="A" target="B"/>
+        <edge source="A" target="G"/>
+        <edge source="B" target="D"/>
+        <edge source="C" target="G"/>
+        <edge source="D" target="C"/>
+        <edge source="D" target="F"/>
+        <edge source="D" target="E"/>
+        <edge source="E" target="F"/>
+        <edge source="F" target="D"/>
+        <edge source="G" target="A"/>
+        <edge source="G" target="F"/>
+
+    </graph>
+</graphml>

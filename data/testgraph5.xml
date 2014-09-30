@@ -1,0 +1,31 @@
+<graphml>
+    <graph edgedefault="undirected">
+        
+        <key id="name" for="node">String</key>
+        <key id="Year" for="edge" attr.name="Year" attr.type="Integer"/>
+        
+        <node id="A"><data key="name">A</data></node>
+        <node id="B"><data key="name">B</data></node>
+        <node id="C"><data key="name">C</data></node>
+        
+        <edge source="A" target="B">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="A" target="B">
+			<data key="Year">2001</data>
+        </edge>
+        <edge source="A" target="B">
+			<data key="Year">2003</data>
+        </edge>
+        <edge source="A" target="C">
+			<data key="Year">2001</data>
+        </edge>
+        <edge source="A" target="C">
+			<data key="Year">2002</data>
+        </edge>
+        <edge source="A" target="C">
+			<data key="Year">2003</data>
+        </edge>
+
+    </graph>
+</graphml>

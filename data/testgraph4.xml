@@ -1,0 +1,65 @@
+<graphml>
+    <graph edgedefault="undirected">
+        
+        <key id="name" for="node">String</key>
+        <key id="Year" for="edge" attr.name="Year" attr.type="Integer"/>
+        
+        <node id="A"><data key="name">A</data></node>
+        <node id="B"><data key="name">B</data></node>
+        <node id="C"><data key="name">C</data></node>
+        <node id="D"><data key="name">D</data></node>
+        <node id="E"><data key="name">E</data></node>
+        <node id="F"><data key="name">F</data></node>
+        <node id="G"><data key="name">G</data></node>
+        
+        <edge source="A" target="B">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="A" target="B">
+			<data key="Year">2001</data>
+        </edge>
+        <edge source="A" target="B">
+			<data key="Year">2002</data>
+        </edge>
+        <edge source="A" target="G">
+            <data key="Year">2001</data>
+        </edge>
+        <edge source="A" target="G">
+            <data key="Year">2003</data>
+        </edge>
+        <edge source="B" target="D">
+			<data key="Year">2001</data>
+        </edge>
+        <edge source="B" target="D">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="C" target="G">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="C" target="G">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="D" target="C">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="D" target="F">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="D" target="E">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="E" target="F">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="F" target="D">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="G" target="A">
+			<data key="Year">2000</data>
+        </edge>
+        <edge source="G" target="F">
+			<data key="Year">2000</data>
+        </edge>
+
+    </graph>
+</graphml>
