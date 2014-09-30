@@ -1,0 +1,383 @@
+<!-- ===========================================================================
+
+Installing the build tools
+==========================
+
+This build system is based on Apache Ant, which is a Java building tool
+originally developed for the Jakarta Tomcat project but now used in many other
+Apache projects and extended by many developers.
+
+Ant is a little but very handy tool that uses a build file written in XML
+(this file) as building instructions. For more information refer to
+"http://ant.apache.org/".
+
+The only thing that you have to make sure of is that the "JAVA_HOME" environment
+property is set to match the top level directory containing the JVM you want
+to use. For example:
+
+C:\> set JAVA_HOME=C:\jdk1.4
+
+or on Unix:
+
+% setenv JAVA_HOME /usr/local/java
+  (csh)
+> JAVA_HOME=/usr/java; export JAVA_HOME
+  (ksh, bash)
+
+That's it!
+
+Building instructions
+=====================
+
+Ok, let's build the samples. First, make sure your current working directory is
+where this very file is located. Then type:
+
+  ./build.sh all (unix)
+  .\build.bat all (win32)
+
+To build the framework, examples, and tests or:
+
+  ./build.sh (unix)
+  .\build.bat (win32)
+  
+To list all the possible build targets.
+
+If everything is right (see *) and all the required packages are visible, this action
+will generate some jar files:
+
+  <name>.jar  - This jar contains the main jar file.
+
+
+in the "./build" directory. These jar files (excluding infovis.jar wich is a library) can all
+be run by double clicking with the mouse on the jar file or by running the command
+
+  java -jar <jar file name>
+
+from within the ./build directory. Some of the jars depend on others and on files
+in ./lib so the distributions file structure should not be changed without repackaging
+the jars to remove these dependencies.
+
+* On Win/98 you may get an "Out of Environment Space" error message. This happens if
+Windows provides too small a space for environment variables. To work around this
+limitation: 
+  Close the DOS window (the error can corrupt its CLASSPATH variable). 
+  Open a new DOS window. Click on the MS-DOS icon at the top left of the window. 
+  Select the Properties option. 
+  Click on the Memory tab. 
+  Adjust the "Initial Environment" drop-down box from "Auto" to "2816". 
+  Click OK. 
+Then try building.
+
+-->
+
+<project name="timematrix" default="usage" basedir=".">
+
+ <!-- =================================================================== -->
+ <!-- Initialization target                                               -->
+ <!-- =================================================================== -->
+ <target name="init">
+  <tstamp/>
+  <property name="Name" value="TimeMatrix"/>
+  <property name="name" value="timematrix"/>
+  <property name="version" value="${DSTAMP}beta"/>
+  <property name="year" value="2006"/>
+
+  <echo message="----------- ${Name} ${version} [${year}] ------------"/>
+
+  <property name="build.compiler" value="modern"/>
+  <property name="debug" value="off"/>
+  <property name="optimize" value="on"/>
+  <property name="deprecation" value="on"/>
+  <property name="packages" value="edu.purdue.timematrix.*"/>
+
+  <!-- Define the source directories -->
+  <property name="root.dir" value="."/>
+  <property name="doc.dir" value="${root.dir}/doc"/>
+  <property name="lib.dir" value="${root.dir}/lib"/>
+  <property name="src.dir" value="${root.dir}/src"/>
+  <!-- Define the source build directories -->
+  <property name="doc.apidocs" value="${doc.dir}/api"/>
+  <property name="build.dir" value="${root.dir}/build"/>
+  <property name="build.lib" value="${root.dir}/build/lib"/>
+  <property name="build.timematrix.src" value="${root.dir}/build/timematrix/src"/>
+  <property name="build.timematrix.dest" value="${root.dir}/build/timematrix/classes"/>
+  <property name="webstart.dir" value="${build.dir}/webstart"/>
+
+  <!-- Define the distribution directories -->
+  <property name="dist.root" value="${root.dir}/dist"/>
+  <property name="sourcedist.dir" value="${dist.root}/${name}-${version}/${name}"/>
+
+  <path id="build-classpath">
+  	<fileset dir="${build.lib}">
+  		<include name="*.jar"/>
+  	</fileset>
+<!--	<pathelement location="${build.dir}/${name}.jar"/> -->
+  </path>
+
+   <path id="run-classpath">
+     <fileset dir="${lib.dir}">
+       <include name="*.jar"/>
+     </fileset>      	
+  </path>
+
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Help on usage                                                       -->
+ <!-- =================================================================== -->
+ <target name="usage">
+  <echo message=""/>
+  <echo message=""/>
+  <echo message="TimeMatrix Build file"/>
+  <echo message="-------------------------------------------------------------"/>
+  <echo message=""/>
+  <echo message=" available targets are:"/>
+  <echo message=""/>
+  <echo message="   all        --> builds all the jars in ./build"/>
+  <echo message="   timematrix --> builds the timematrix.jar file in ./build"/>
+  <echo message="   zip        --> creates the compiled distribution in ./dist"/>
+  <echo message="   sourcedist --> creates the source distribution in ./dist"/>    
+  <echo message="   api        --> generates the TimeMatrix docs in ./doc/api"/>
+  <echo message="   clean      --> restores distribution to original state"/>
+  <echo message="   usage      --> (default) displays build menu"/>
+  <echo message=""/>
+  <echo message=" See the comments inside the build.xml file for more details."/>
+  <echo message="-------------------------------------------------------------"/>
+  <echo message=""/>
+  <echo message=""/>
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Prepares the build directory                                        -->
+ <!-- =================================================================== -->
+ <target name="prepare" depends="init">
+  <mkdir dir="${build.dir}"/>
+  <mkdir dir="${build.lib}"/>
+  
+  <copy todir="${build.lib}">
+   <fileset dir="${lib.dir}"/>
+  </copy>
+  
+ </target>
+ 
+ <!-- =================================================================== -->
+ <!-- Prepares the timematrix source code                                    -->
+ <!-- =================================================================== -->
+ <target name="prepare-timematrix" depends="prepare">
+  <mkdir dir="${build.timematrix.src}"/>
+  <mkdir dir="${build.timematrix.dest}"/>
+  
+  <copy todir="${build.timematrix.src}">
+   <fileset dir="${src.dir}"/>
+  </copy>
+ 	
+ 	<pathconvert pathsep=" " property="build.manifest.classpath" dirsep="/">
+ 		<path refid="build-classpath"/>
+ 		<chainedmapper>
+ 		  <flattenmapper />
+		  <globmapper from="*" to="lib/*"/>
+   		</chainedmapper>
+ 	</pathconvert>
+ 	<manifest file="${build.timematrix.src}/timematrix.mf">
+		<attribute name="Built-By" value="${user.name}"/>
+		<attribute name="Main-Class" value="edu.purdue.timematrix.application.TimeMatrixApplication"/>
+		<attribute name="Class-Path" value="${build.manifest.classpath}"/>
+		<attribute name="Created-By" value="Niklas Elmqvist"/>
+		<section name="common">
+			<attribute name="Implementation-Title" value="TIMECELL"/>
+			<attribute name="Implementation-Version" value="${version} ${TODAY}"/> 
+			<attribute name="Implementation-Vendor" value="Purdue University, West Lafayette, USA"/>
+			<attribute name="Implementation-URL" value="http://engineering.purdue.edu/pivot/"/>
+		</section>
+	</manifest>
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Compiles the Motionrecorder source code                                    -->
+ <!-- =================================================================== -->
+ <target name="compile-timematrix" depends="prepare-timematrix">
+  <!-- copy resource files -->
+  <copy todir="${build.timematrix.dest}">
+   <fileset dir="${build.timematrix.src}" excludes="**/*.java"/>
+  </copy>
+  <!-- <echo>${build.manifest.classpath}</echo> -->
+  <javac srcdir="${build.timematrix.src}"
+   source="1.5"
+   destdir="${build.timematrix.dest}"
+   debug="${debug}"
+   deprecation="${deprecation}"
+   optimize="${optimize}"
+   classpathref="run-classpath">
+	<!--  	<compilerarg value="-Xlint:unchecked"/> -->
+ </javac>
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Creates the timematrix.jar in ./build                                  -->
+ <!-- =================================================================== -->
+ <target name="timematrix" depends="compile-timematrix">
+   <jar jarfile="${build.dir}/${name}.jar"
+   basedir="${build.timematrix.dest}"
+   includes="**"
+   manifest="${build.timematrix.src}/timematrix.mf"/>
+ </target>
+	
+	<target name="run" depends="timematrix">
+		<java 
+			jar="${build.dir}/${name}.jar"
+			fork="true"/>
+	</target>
+
+ <!-- =================================================================== -->
+ <!-- Build all jars in ./build                                           -->
+ <!-- =================================================================== -->
+ <target name="all" depends="timematrix"/>
+
+ <!-- =================================================================== -->
+ <!-- Creates the API documentation in ./doc/api/                     -->
+ <!-- =================================================================== -->
+ <target name="api" depends="init">
+  <mkdir dir="${doc.apidocs}"/>
+  <javadoc packagenames="${packages}"
+   overview="src/overview.html"
+   sourcepath="${src.dir}"
+   destdir="${doc.apidocs}"
+   author="true"
+   public="true"
+   additionalparam="-source 1.5"
+   version="true"
+   use="true"
+   splitindex="true"
+   noindex="false"
+   windowtitle="TimeMatrix"
+   doctitle="TimeMatrix"
+   bottom="Copyright &#169; ${year} by Purdue University, USA.  All rights reserved."
+  	classpathref="run-classpath">
+  	<link href="http://java.sun.com/j2se/1.4/docs/api"/>
+  </javadoc>
+  </target>
+
+
+ <!-- =================================================================== -->
+ <!-- Build source distribution in ./dist                                 -->
+ <!-- =================================================================== -->
+ <target name="sourcedist" depends="clean">
+  <mkdir dir="${dist.root}"/>
+  <mkdir dir="${sourcedist.dir}"/>
+
+  <copy todir="${sourcedist.dir}">
+   <fileset dir="${root.dir}">
+    <include name="src/**"/>
+    <include name="lib/**"/>
+    <include name="tools/**"/>
+    <include name="build.xml"/>
+    <include name="timematrix.jnlp"/>
+    <include name="timematrix.html"/>
+    <include name="timematrix-plugin.xml"/>
+    <include name="build.bat"/>
+    <include name="build.sh"/>
+   </fileset>
+  </copy>
+
+  <fixcrlf srcdir="${sourcedist.dir}"
+   eol="lf" eof="remove"
+   includes="**/*.sh"
+   />
+  <zip zipfile="${dist.root}/${name}-${version}.zip"
+   basedir="${dist.root}/${name}-${version}"
+   whenempty="create"/>
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Build compiled distribution in ./dist                               -->
+ <!-- =================================================================== -->
+ <target name="zip" depends="clean, all, api">
+  <mkdir dir="${dist.root}"/>
+  <mkdir dir="${sourcedist.dir}"/>
+
+  <copy todir="${sourcedist.dir}">
+   <fileset dir="${root.dir}">
+    <exclude name="dist/**"/>
+    <exclude name="src/**"/>
+    <exclude name="class/**"/>
+    <exclude name="build/**"/>
+   </fileset>
+  </copy>
+  <copy todir="${sourcedist.dir}">
+    <fileset dir="${root.dir}/build">
+	  	<include name="*.jar"/>
+  	</fileset>
+  </copy>
+
+  <fixcrlf srcdir="${sourcedist.dir}"
+   eol="lf" eof="remove"
+   includes="**/*.sh"
+   />
+
+  <zip zipfile="${dist.root}/${name}-${version}.zip"
+   basedir="${dist.root}/${name}-${version}"
+   whenempty="create"
+   />
+ </target>
+
+ <!-- =================================================================== -->
+ <!-- Clean restors distribution to original state                        -->
+ <!-- =================================================================== -->
+ <target name="clean" depends="init">
+  <delete dir="${build.dir}"/>
+  <delete dir="${dist.root}"/>
+  <delete dir="${doc.apidocs}"/>
+ </target>
+
+<!-- ======================================================= -->
+<!-- Create timematrix WebStart Distribution                        -->
+<!-- ======================================================= -->
+
+<target name="webstart" depends="all" description="Creates TimeMatrix Webstart Release">
+	<echo>
+	    ***********************************************
+	    Creating TimeMatrix Webstart Release
+	    * NOTE: If this is your first time using Webstart:
+	    * you must create a keystore:
+	    * keytool -genkey -alias timematrix -keypass secret
+	    * enter "secret" for the password. 
+	    ***********************************************
+	</echo>
+
+	<!-- Create Webstart Directory -->
+	<mkdir dir="${webstart.dir}"/>
+
+	<echo>
+	    ---------------------------------------
+	    Copying over all necessary JAR files.
+	    ---------------------------------------
+	</echo>
+
+	<copy file="${basedir}/timematrix.jnlp"
+	      tofile="${webstart.dir}/timematrix.jnlp"/>
+
+	<copy file="${basedir}/timematrix.html"
+	      tofile="${webstart.dir}/index.html"/>
+
+	<copy file="${build.dir}/timematrix.jar"
+	      tofile="${webstart.dir}/timematrix.jar"/>
+
+	<copy file="${build.dir}/lib/piccolo.jar"
+	      tofile="${webstart.dir}/piccolo.jar"/>
+
+	<copy file="${build.dir}/lib/piccolox.jar"
+	      tofile="${webstart.dir}/piccolox.jar"/>
+
+	<signjar jar="${webstart.dir}/timematrix.jar"
+	         alias="timematrix"
+	         storepass="secret"/>
+	
+	<signjar jar="${webstart.dir}/piccolo.jar"
+	         alias="timematrix"
+	         storepass="secret"/>
+	
+	<signjar jar="${webstart.dir}/piccolox.jar"
+	         alias="timematrix"
+	         storepass="secret"/>
+</target>                	
+</project>

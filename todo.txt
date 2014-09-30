@@ -1,0 +1,107 @@
+---------------------------------------------------------------------
+TODO FILE - TimeMatrix
+Created 2009-01-21 by Niklas Elmqvist 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+IMPORTANT MISSING FEATURES: 
+---------------------------------------------------------------------
+* Web start (elm) [x]
+* Filter bug (yij) [x]
+* Reordering permutation [x]
+* Time slider (for filtering) [x]
+* Semantic zooming [x]
+* Highlighting [x]
+---------------------------------------------------------------------
+
+General:
+[?] Make sure to clear collapsed edges and nodes to allow GC to free up memory
+[?] Make sure to invalidate elements that have changed 
+[?] Implement a histogram aggregation class (with variable width buckets?) 
+[X] Optimize rendering (it is too slow) - if we can't improve it, cut down on the scenario dataset
+[X] Make sure to cache elements only in the overlays
+
+Visual representation: 
+[ ] Show hierarchy on row and column labels (elm)
+[X] Semantic zooming of edges (TimeCells) (yij)
+[?] Hierarchical matrix labels (columns and rows)
+[?] Cell line graph visual representation
+[?] Two-tone visual representation (?)
+[X] Show basic aggregation on rows and labels (headers)  
+[X] Hierarchical matrix visualization
+[X] Cell bar chart visual representation
+
+Overlays:
+[?] Allow different visual representations as overlays
+[?] Separate edge and node overlays?
+[X] Allow different metrics as overlays 
+[X] Implement alpha blending (transparency) changes
+[X] Create the overlay layer window (color + toggle + transparency)
+[X] Create overlays for all given and derived metrics (nodes and edges)
+[X] Create resource management mechanism for building/storing/managing given and derived metrics
+[X] Create compositor for building a single PNode for requested entities/resources 
+[X] Add Statistical Overlays (Degree Centrality) (yij, elm)
+[?] Add Statistical Overlays (Betweeness) (yij)
+
+Refactoring:
+[X] Clean up aggregation code
+[X] Expose all node and edge data through the overlay mechanism
+[X] Clean up cell visualization code
+
+Layout:
+[X] Add a panner with overview (yij)
+[X] Introduce a layout manager common to both grid and labels
+[X] Activate scroll bars for panning in the matrix 
+[X] Scale text in labels correctly (to correct for non-uniform scaling of view transform) 
+[X] Correct the center for row and column (to get correct zoom)
+[X] Update row and column labels
+[X] Introduce a scroll pane layout
+[X] Store layout allocations for nesting
+
+Data management and algorithms:
+[X] Load computed permutation (elm)
+[X] Sorting by attribute (alphabetical and reverse)
+[X] Reordering algorithms (TSP-based)
+[X] Cull empty nodes (in-degree and out-degree both zero) 
+
+Aggregation:
+[X] Node aggregation
+[X] Temporal aggregation (same source and destination nodes)
+[X] Aggregation hierarchy data structure
+[X] Aggregate and basic aggregate implementation
+
+User interface:
+[ ] Allow resizing of scroll panes (viewport, columns, rows) 
+[X] Range slider for temporal filtering (yij)
+[X] Highlight rows and columns (brushing) (yij)
+[X] Tooltips for drill down (elm)
+[X] Menu bar (elm)
+[X] Control panel to add user interface functionality
+
+Interaction: 
+[ ] Selecting nodes to aggregate (crossing/line) (elm)
+[?] Direct (drag) reordering rows and columns (nodes) (elm) 
+[?] Change row and column sizes 
+[?] Selection lens and lens hierarchy (TableLens-inspired?)
+[X] Navigation using scrollbars (pan, no zoom) (Ji Soo)
+[X] Splitting aggregates
+[X] Selecting edges to aggregate (rubberband)
+[X] Zoom in/out using a mouse wheel (Ji Soo)
+
+Statistics:
+[X] Global vs local maxima for TimeCells (yij) - yij thinks that he has done this as well.
+[?] Local statistics
+[?] Global statistics
+[X] Degree centrality (Ji Soo)
+[?] Betweeness centrality (Ji Soo)
+
+Storage: 
+[?] Ability to save layouts and aggregation hierarchies
+[?] Ability to load layouts and aggregation hierarchies
+
+Bugs:
+[?] Some edges disappear when aggregated (hard to replicate)
+[X] Incorrect edge collapse (need to update in-edges)
+[X] Incorrect edge aggregation
+[X] Undirected graphs always have edges to nodes themselves
+[X] Cell splitting (for collapse) of widths not working properly

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+   spec="1.0+" 
+   codebase="https://engineering.purdue.edu/~elm/projects/timematrix/"
+   href="timematrix.jnlp">
+  <information>
+    <title>TimeMatrix WebStart</title>
+    <vendor>Purdue University</vendor>
+    <homepage href="index.html"/>
+    <description>TimeMatrix Application</description> 
+    <description kind="short">TimeMatrix Visualization Application</description>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+" max-heap-size="1000M"/>
+    <jar href="timematrix.jar"/>
+    <jar href="piccolo.jar"/>
+    <jar href="piccolox.jar"/>
+  </resources>
+  <application-desc main-class="edu.purdue.timematrix.application.TimeMatrixApplication"/>
+</jnlp>
